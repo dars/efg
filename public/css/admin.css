@@ -1,0 +1,12 @@
+.x-tree-node{
+	font-size:14px;
+}
+.x-form-text{
+	font-size:13px;
+}
+.x-panel-header-text{
+	font-size:13px;
+}
+.x-tree-node-leaf .icon-drag{
+	background-image: url(../images/drag_arrow.png);
+}
