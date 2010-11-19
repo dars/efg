@@ -42,6 +42,7 @@
 //$route['admin'] = "admin/index";
 //$route['admin/(:any)'] = "$1/admin_index";
 //$route['admin/(:any)/(:any)'] = "$1/admin_$2";
+$route['nodes/(:num)'] = 'nodes/index/$1';
 $route['default_controller'] = "welcome";
 $route['scaffolding_trigger'] = "";
 

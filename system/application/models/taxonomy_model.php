@@ -18,6 +18,7 @@ class taxonomy_model extends Model{
 		$this->db->insert('taxonomies',$tmp);
 		if($category == 'sys' || $category == 'product' || $category == 'project'){
 			$tmp = array();
+			$tmp['title']=$name;
 			$tmp['type']=$this->db->insert_id();
 			$tmp['lang']=$lang;
 			$tmp['created']=date('Y-m-d H:i:s');
@@ -31,5 +32,13 @@ class taxonomy_model extends Model{
 		$this->db->ar_where = array();
 		$this->db->where('type',$id);
 		$this->db->delete('nodes');
+	}
+	function nav_get_list($category,$lang){
+		$this->db->select('id,name');
+		$this->db->where('category',$category);
+		$this->db->where('lang',$lang);
+		$this->db->order_by('weight','ASC');
+		$res = $this->db->get('taxonomies');
+		return $res->result_array();
 	}
 }
