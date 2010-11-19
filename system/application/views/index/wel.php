@@ -1,8 +1,6 @@
 <div class="section">
-	<h2>歡迎光臨</h2>
-	<img class="img-indent alt" alt="" src="images/1page-img1.jpg" />
-	<h3>Lorem ipsum dolor sit amet consectetuer adipiscing elit. Praesent vestib ulum molestie lacusummy hendrerit maurisellus porta.</h3> 
-	Fusce suscipit varius mi. Cum sociis natoque penatibus et magnis dis partur ienton tes nascetur ridiculus mus. Nulla dui. Fusce feugiat malesuada odio. Morbi nunc odi	oer gravida atcursus necuctus a lorem. Maecenas tristique orci ac sem. Duis ultricies pharetra magna. Donec accumsan malesuada orcionec sit amet eros. Lorem ipsum dolor sit amet consectetuer adipiscing elit. Mauris fermentum dictum magna.
+	<h2>{wel_title}</h2>
+	{wel_content}
 	<div class="clear"></div> 
 </div>
 <div class="wrapper">

@@ -1,0 +1,31 @@
+<div class="content_view">
+	<table>
+		<tr>
+			<th>ID</th>
+			<td>{id}</td>
+		</tr>
+		<tr>
+			<th>類別</th>
+			<td>{cname}</td>
+		</tr>
+		<tr>
+			<th>標題</th>
+			<td>{title}</td>
+		</tr>
+		<tr>
+			<th>內容</th>
+			<td>{content}</td>
+		</tr>
+		<tr>
+			<th>張貼時間</th>
+			<td>{created}</td>
+		</tr>
+		<tr>
+			<th>更新時間</th>
+			<td>{modified}</td>
+		</tr>
+	</table>
+	<div class="link_dv">
+		<?=anchor('news','返回列表');?>
+	</div>
+</div>
