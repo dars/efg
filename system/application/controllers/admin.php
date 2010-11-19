@@ -6,11 +6,29 @@ class Admin extends Controller {
 		parent::Controller();	
 	}
 	function index(){
-		
-		//$this->lang->load('test','zhtw');
-		//$this->lang->load('test','english');
-		//echo $this->lang->line('test_string');
 		$this->load->view('admin/index');
+	}
+	function ckupdate(){
+		$config['upload_path']='public/files/ckfiles/';
+		$config['allowed_types']='gif|jpg|jpeg|png|bmp';
+		$config['max_size']='1000';
+		$config['max_width']='0';
+		$config['max_height']='0';
+		$config['encrypt_name']=true;
+		$config['remove_spaces']=true;
+		$this->load->library('upload',$config);
+		$upload = $this->upload->do_upload('upload');
+		//var_dump($upload);
+		
+		$data=$this->upload->data();
+		echo '<script type="text/javascript">';
+		echo 'var CKEDITOR_CurrentDialog = (window.parent.CKEDITOR.dialog.getCurrent());';
+		echo 'CKEDITOR_CurrentDialog.selectPage(\'info\');';
+		echo 'CKEDITOR_CurrentDialog.getContentElement(\'info\', \'txtUrl\').focus();';
+		echo 'CKEDITOR_CurrentDialog.setValueOf(\'info\', \'txtUrl\', \''.site_url('public/files/ckfiles/'.$data['file_name']).'\');';
+		//echo "window.parent.CKEDITOR.tools.callFunction(1,'".site_url('public/files/ckfiles/'.$data['file_name'])."', '上傳成功');";
+		//echo "window.parent.CKEDITOR.tools.callFunction(1,'http://localhost/~Dars/efg/public/files/ckfiles/177ba48b9222da86db2dec2e4a1d9361.jpg', '上傳成功');";
+		echo '</script>';
 	}
 	function get_nodes_title(){
 		$this->load->model('taxonomy_model');

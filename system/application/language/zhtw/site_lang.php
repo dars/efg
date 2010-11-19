@@ -1,0 +1,20 @@
+<?php
+$lang['test_string']='測試文字';
+$lang['flash_menu_url'] = 'menu_zhtw.swf';
+$lang['flash_header_url'] = 'header_zhtw.swf';
+$lang['sub_nav_work'] = '工程服務';
+$lang['sub_nav_sys'] = '系統介紹';
+$lang['sub_nav_prod'] = '產品介紹';
+$lang['sub_nav_know'] = '資訊百科';
+$lang['sub_nav_design'] = "設計規劃";
+$lang['sub_nav_material'] = '備料加工';
+$lang['sub_nav_inst'] = '責任施工';
+$lang['sub_nav_cons'] = '顧問監造';
+$lang['sub_nav_design_val'] = "2";
+$lang['sub_nav_material_val'] = '3';
+$lang['sub_nav_inst_val'] = '4';
+$lang['sub_nav_cons_val'] = '5';
+$lang['sub_nav_know_nav'] = '7';
+$lang['sub_nav_news'] = '最新消息';
+$lang['sub_nav_project'] = '承攬項目';
+$lang['sub_nav_dorma'] = '德國多瑪';

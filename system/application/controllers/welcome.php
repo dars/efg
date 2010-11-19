@@ -4,8 +4,10 @@ class Welcome extends Controller {
 		parent::Controller();	
 	}
 	function index(){
+		$lang = $this->uri->segment(1);
+		$this->lang->load('site',$lang);		
 		$this->load->model('wel_model');
-		$tmp=$this->wel_model->get_wel_content();
+		$tmp=$this->wel_model->get_wel_content($lang);
 		$data['wel_title']=$tmp['title'];
 		$data['wel_content']=$tmp['content'];
 		$pdata['page_title']='歡迎光臨 霖亞帷幕科技工程有限公司';

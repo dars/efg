@@ -45,6 +45,10 @@ var root = new Ext.tree.AsyncTreeNode({
 			id:"knowledge",
 			text:'資訊百科',
 			leaf:true
+		},{			 
+			id:"dorma",
+			text:'德國多瑪',
+			leaf:true
 		}]			 
 	},{
 		text:'最新消息',
@@ -133,6 +137,9 @@ tree.on('click',function(node){
 			break;
 		case 'knowledge':
 			show_info_tab(7,'資訊百科');
+			break;
+		case 'dorma':
+			show_info_tab(25,'德國多瑪');
 			break;
 		case 'news_taxo_zhtw':
 			show_taxo_tab('news','最新消息','zhtw');

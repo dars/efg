@@ -33,12 +33,4 @@ class taxonomy_model extends Model{
 		$this->db->where('type',$id);
 		$this->db->delete('nodes');
 	}
-	function nav_get_list($category,$lang){
-		$this->db->select('id,name');
-		$this->db->where('category',$category);
-		$this->db->where('lang',$lang);
-		$this->db->order_by('weight','ASC');
-		$res = $this->db->get('taxonomies');
-		return $res->result_array();
-	}
 }

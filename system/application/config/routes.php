@@ -42,7 +42,23 @@
 //$route['admin'] = "admin/index";
 //$route['admin/(:any)'] = "$1/admin_index";
 //$route['admin/(:any)/(:any)'] = "$1/admin_$2";
-$route['nodes/(:num)'] = 'nodes/index/$1';
+//$route['nodes/(:num)'] = 'nodes/index/$1';
+//$route['projects/(:num)'] = 'projects/index/$1';
+//$route['zhtw/nodes/(:num)'] = 'nodes/index/$1/zhtw';
+//$route['zhtw/projects/(:num)'] = 'projects/index/$1/zhtw';
+$route['zhtw/(:any)/(:num)'] = '$1/index/$2/zhtw';
+$route['zhtw/(:any)/(:any)/(:num)'] = '$1/$2/$3/zhtw';
+$route['zhtw/(:any)/(:any)'] = '$1/$2/zhtw';
+$route['zhtw/(:any)'] = '$1/index/zhtw';
+$route['zhtw'] = 'welcome/index/zhtw';
+
+
+$route['en/(:any)/(:num)'] = '$1/index/$2/en';
+$route['en/(:any)/(:any)/(:num)'] = '$1/$2/$3/en';
+$route['en/(:any)/(:any)'] = '$1/$2/en';
+$route['en/(:any)'] = '$1/index/en';
+$route['en'] = 'welcome/index/en';
+
 $route['default_controller'] = "welcome";
 $route['scaffolding_trigger'] = "";
 

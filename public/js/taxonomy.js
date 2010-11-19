@@ -129,7 +129,6 @@ taxo_tree.on('nodedrop',function(e){
 	var i = 0;
 	sort=[];
 	while(i<count){
-		console.log(tmp_tree[i].id+" : "+tmp_tree[i].text);
 		sort.push(tmp_tree[i].id);
 		i++;
 	}

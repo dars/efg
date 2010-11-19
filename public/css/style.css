@@ -107,11 +107,8 @@ h5 { font-size:1em;}
 /*==========================================*/
 
 /*  */
-.list1 li .nav_list{
-	font-size:13px;
-	color:#333;
-	letter-spacing: 5px;
-}
-.sub_nav_l2{
-	padding-left:18px;
+
+#footer .nav li a{
+	padding-top:3px;
+	padding-bottom:3px;
 }

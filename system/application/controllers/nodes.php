@@ -2,7 +2,7 @@
 class Nodes extends Controller{
 	function __construct(){parent::Controller();}
 	function index(){
-		$this->db->where('id',$this->uri->segment(2));
+		$this->db->where('id',$this->uri->segment(3));
 		$query = $this->db->get('nodes');
 		$res = $query->result_array();
 		$data = $res[0];
