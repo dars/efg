@@ -13173,3 +13173,801 @@ DEBUG - 2010-11-19 05:43:45 --> Session routines successfully run
 DEBUG - 2010-11-19 05:43:45 --> Controller Class Initialized
 DEBUG - 2010-11-19 05:43:45 --> Final output sent to browser
 DEBUG - 2010-11-19 05:43:45 --> Total execution time: 0.0274
+DEBUG - 2010-11-19 13:48:56 --> Config Class Initialized
+DEBUG - 2010-11-19 13:48:56 --> Hooks Class Initialized
+DEBUG - 2010-11-19 13:48:56 --> URI Class Initialized
+DEBUG - 2010-11-19 13:48:56 --> No URI present. Default controller set.
+DEBUG - 2010-11-19 13:48:56 --> Router Class Initialized
+DEBUG - 2010-11-19 13:48:56 --> Output Class Initialized
+DEBUG - 2010-11-19 13:48:56 --> Input Class Initialized
+DEBUG - 2010-11-19 13:48:56 --> Global POST and COOKIE data sanitized
+DEBUG - 2010-11-19 13:48:56 --> Language Class Initialized
+DEBUG - 2010-11-19 13:48:56 --> Loader Class Initialized
+DEBUG - 2010-11-19 13:48:56 --> Helper loaded: url_helper
+DEBUG - 2010-11-19 13:48:56 --> Helper loaded: file_helper
+DEBUG - 2010-11-19 13:48:56 --> Helper loaded: language_helper
+DEBUG - 2010-11-19 13:48:56 --> Database Driver Class Initialized
+DEBUG - 2010-11-19 13:48:56 --> Session Class Initialized
+DEBUG - 2010-11-19 13:48:56 --> Helper loaded: string_helper
+DEBUG - 2010-11-19 13:48:56 --> A session cookie was not found.
+DEBUG - 2010-11-19 13:48:56 --> Session routines successfully run
+DEBUG - 2010-11-19 13:48:56 --> Controller Class Initialized
+DEBUG - 2010-11-19 13:48:56 --> File loaded: /Users/mac/Sites/efg/system/application/views/main.php
+DEBUG - 2010-11-19 13:48:56 --> Final output sent to browser
+DEBUG - 2010-11-19 13:48:56 --> Total execution time: 0.0303
+DEBUG - 2010-11-19 13:48:56 --> Config Class Initialized
+DEBUG - 2010-11-19 13:48:56 --> Hooks Class Initialized
+DEBUG - 2010-11-19 13:48:56 --> Config Class Initialized
+DEBUG - 2010-11-19 13:48:56 --> Hooks Class Initialized
+DEBUG - 2010-11-19 13:48:56 --> URI Class Initialized
+DEBUG - 2010-11-19 13:48:56 --> URI Class Initialized
+ERROR - 2010-11-19 13:48:56 --> 404 Page Not Found --> images
+ERROR - 2010-11-19 13:48:56 --> 404 Page Not Found --> images
+DEBUG - 2010-11-19 13:48:56 --> Config Class Initialized
+DEBUG - 2010-11-19 13:48:56 --> Hooks Class Initialized
+DEBUG - 2010-11-19 13:48:56 --> URI Class Initialized
+ERROR - 2010-11-19 13:48:56 --> 404 Page Not Found --> public
+DEBUG - 2010-11-19 14:00:10 --> Config Class Initialized
+DEBUG - 2010-11-19 14:00:10 --> Hooks Class Initialized
+DEBUG - 2010-11-19 14:00:10 --> URI Class Initialized
+DEBUG - 2010-11-19 14:00:10 --> No URI present. Default controller set.
+DEBUG - 2010-11-19 14:00:10 --> Router Class Initialized
+DEBUG - 2010-11-19 14:00:10 --> Output Class Initialized
+DEBUG - 2010-11-19 14:00:10 --> Input Class Initialized
+DEBUG - 2010-11-19 14:00:10 --> Global POST and COOKIE data sanitized
+DEBUG - 2010-11-19 14:00:10 --> Language Class Initialized
+DEBUG - 2010-11-19 14:00:10 --> Loader Class Initialized
+DEBUG - 2010-11-19 14:00:10 --> Helper loaded: url_helper
+DEBUG - 2010-11-19 14:00:10 --> Helper loaded: file_helper
+DEBUG - 2010-11-19 14:00:10 --> Helper loaded: language_helper
+DEBUG - 2010-11-19 14:00:10 --> Database Driver Class Initialized
+DEBUG - 2010-11-19 14:00:10 --> Session Class Initialized
+DEBUG - 2010-11-19 14:00:10 --> Helper loaded: string_helper
+DEBUG - 2010-11-19 14:00:10 --> Session routines successfully run
+DEBUG - 2010-11-19 14:00:10 --> Controller Class Initialized
+DEBUG - 2010-11-19 14:00:10 --> File loaded: /Users/mac/Sites/efg/system/application/views/main.php
+DEBUG - 2010-11-19 14:00:10 --> Final output sent to browser
+DEBUG - 2010-11-19 14:00:10 --> Total execution time: 0.0321
+DEBUG - 2010-11-19 14:00:10 --> Config Class Initialized
+DEBUG - 2010-11-19 14:00:10 --> Hooks Class Initialized
+DEBUG - 2010-11-19 14:00:10 --> URI Class Initialized
+ERROR - 2010-11-19 14:00:10 --> 404 Page Not Found --> images
+DEBUG - 2010-11-19 14:00:10 --> Config Class Initialized
+DEBUG - 2010-11-19 14:00:10 --> Hooks Class Initialized
+DEBUG - 2010-11-19 14:00:10 --> URI Class Initialized
+ERROR - 2010-11-19 14:00:10 --> 404 Page Not Found --> images
+DEBUG - 2010-11-19 14:00:10 --> Config Class Initialized
+DEBUG - 2010-11-19 14:00:10 --> Hooks Class Initialized
+DEBUG - 2010-11-19 14:00:10 --> URI Class Initialized
+ERROR - 2010-11-19 14:00:10 --> 404 Page Not Found --> public
+DEBUG - 2010-11-19 14:09:22 --> Config Class Initialized
+DEBUG - 2010-11-19 14:09:22 --> Hooks Class Initialized
+DEBUG - 2010-11-19 14:09:22 --> URI Class Initialized
+DEBUG - 2010-11-19 14:09:22 --> No URI present. Default controller set.
+DEBUG - 2010-11-19 14:09:22 --> Router Class Initialized
+DEBUG - 2010-11-19 14:09:22 --> Output Class Initialized
+DEBUG - 2010-11-19 14:09:22 --> Input Class Initialized
+DEBUG - 2010-11-19 14:09:22 --> Global POST and COOKIE data sanitized
+DEBUG - 2010-11-19 14:09:22 --> Language Class Initialized
+DEBUG - 2010-11-19 14:09:22 --> Loader Class Initialized
+DEBUG - 2010-11-19 14:09:22 --> Helper loaded: url_helper
+DEBUG - 2010-11-19 14:09:22 --> Helper loaded: file_helper
+DEBUG - 2010-11-19 14:09:22 --> Helper loaded: language_helper
+DEBUG - 2010-11-19 14:09:22 --> Database Driver Class Initialized
+DEBUG - 2010-11-19 14:09:22 --> Session Class Initialized
+DEBUG - 2010-11-19 14:09:22 --> Helper loaded: string_helper
+DEBUG - 2010-11-19 14:09:22 --> Session routines successfully run
+DEBUG - 2010-11-19 14:09:22 --> Controller Class Initialized
+DEBUG - 2010-11-19 14:09:22 --> File loaded: /Users/mac/Sites/efg/system/application/views/main.php
+DEBUG - 2010-11-19 14:09:22 --> Final output sent to browser
+DEBUG - 2010-11-19 14:09:22 --> Total execution time: 0.0291
+DEBUG - 2010-11-19 14:09:22 --> Config Class Initialized
+DEBUG - 2010-11-19 14:09:22 --> Hooks Class Initialized
+DEBUG - 2010-11-19 14:09:22 --> URI Class Initialized
+ERROR - 2010-11-19 14:09:22 --> 404 Page Not Found --> images
+DEBUG - 2010-11-19 14:09:22 --> Config Class Initialized
+DEBUG - 2010-11-19 14:09:22 --> Hooks Class Initialized
+DEBUG - 2010-11-19 14:09:22 --> URI Class Initialized
+ERROR - 2010-11-19 14:09:22 --> 404 Page Not Found --> images
+DEBUG - 2010-11-19 14:09:22 --> Config Class Initialized
+DEBUG - 2010-11-19 14:09:22 --> Hooks Class Initialized
+DEBUG - 2010-11-19 14:09:22 --> URI Class Initialized
+ERROR - 2010-11-19 14:09:22 --> 404 Page Not Found --> public
+DEBUG - 2010-11-19 14:11:07 --> Config Class Initialized
+DEBUG - 2010-11-19 14:11:07 --> Hooks Class Initialized
+DEBUG - 2010-11-19 14:11:07 --> URI Class Initialized
+DEBUG - 2010-11-19 14:11:07 --> No URI present. Default controller set.
+DEBUG - 2010-11-19 14:11:07 --> Router Class Initialized
+DEBUG - 2010-11-19 14:11:07 --> Output Class Initialized
+DEBUG - 2010-11-19 14:11:07 --> Input Class Initialized
+DEBUG - 2010-11-19 14:11:07 --> Global POST and COOKIE data sanitized
+DEBUG - 2010-11-19 14:11:07 --> Language Class Initialized
+DEBUG - 2010-11-19 14:11:07 --> Loader Class Initialized
+DEBUG - 2010-11-19 14:11:07 --> Helper loaded: url_helper
+DEBUG - 2010-11-19 14:11:07 --> Helper loaded: file_helper
+DEBUG - 2010-11-19 14:11:07 --> Helper loaded: language_helper
+DEBUG - 2010-11-19 14:11:07 --> Database Driver Class Initialized
+DEBUG - 2010-11-19 14:11:07 --> Session Class Initialized
+DEBUG - 2010-11-19 14:11:07 --> Helper loaded: string_helper
+DEBUG - 2010-11-19 14:11:07 --> Session routines successfully run
+DEBUG - 2010-11-19 14:11:07 --> Controller Class Initialized
+DEBUG - 2010-11-19 14:11:07 --> File loaded: /Users/mac/Sites/efg/system/application/views/main.php
+DEBUG - 2010-11-19 14:11:07 --> Final output sent to browser
+DEBUG - 2010-11-19 14:11:07 --> Total execution time: 0.0277
+DEBUG - 2010-11-19 14:11:07 --> Config Class Initialized
+DEBUG - 2010-11-19 14:11:07 --> Hooks Class Initialized
+DEBUG - 2010-11-19 14:11:07 --> URI Class Initialized
+ERROR - 2010-11-19 14:11:07 --> 404 Page Not Found --> images
+DEBUG - 2010-11-19 14:11:07 --> Config Class Initialized
+DEBUG - 2010-11-19 14:11:07 --> Hooks Class Initialized
+DEBUG - 2010-11-19 14:11:07 --> URI Class Initialized
+ERROR - 2010-11-19 14:11:07 --> 404 Page Not Found --> images
+DEBUG - 2010-11-19 14:11:07 --> Config Class Initialized
+DEBUG - 2010-11-19 14:11:07 --> Hooks Class Initialized
+DEBUG - 2010-11-19 14:11:07 --> URI Class Initialized
+ERROR - 2010-11-19 14:11:07 --> 404 Page Not Found --> public
+DEBUG - 2010-11-19 14:11:15 --> Config Class Initialized
+DEBUG - 2010-11-19 14:11:15 --> Hooks Class Initialized
+DEBUG - 2010-11-19 14:11:15 --> URI Class Initialized
+DEBUG - 2010-11-19 14:11:15 --> No URI present. Default controller set.
+DEBUG - 2010-11-19 14:11:15 --> Router Class Initialized
+DEBUG - 2010-11-19 14:11:15 --> Output Class Initialized
+DEBUG - 2010-11-19 14:11:15 --> Input Class Initialized
+DEBUG - 2010-11-19 14:11:15 --> Global POST and COOKIE data sanitized
+DEBUG - 2010-11-19 14:11:15 --> Language Class Initialized
+DEBUG - 2010-11-19 14:11:15 --> Loader Class Initialized
+DEBUG - 2010-11-19 14:11:15 --> Helper loaded: url_helper
+DEBUG - 2010-11-19 14:11:15 --> Helper loaded: file_helper
+DEBUG - 2010-11-19 14:11:15 --> Helper loaded: language_helper
+DEBUG - 2010-11-19 14:11:15 --> Database Driver Class Initialized
+DEBUG - 2010-11-19 14:11:15 --> Session Class Initialized
+DEBUG - 2010-11-19 14:11:15 --> Helper loaded: string_helper
+DEBUG - 2010-11-19 14:11:15 --> Session routines successfully run
+DEBUG - 2010-11-19 14:11:15 --> Controller Class Initialized
+DEBUG - 2010-11-19 14:11:15 --> File loaded: /Users/mac/Sites/efg/system/application/views/main.php
+DEBUG - 2010-11-19 14:11:15 --> Final output sent to browser
+DEBUG - 2010-11-19 14:11:15 --> Total execution time: 0.0268
+DEBUG - 2010-11-19 14:11:15 --> Config Class Initialized
+DEBUG - 2010-11-19 14:11:15 --> Hooks Class Initialized
+DEBUG - 2010-11-19 14:11:15 --> URI Class Initialized
+DEBUG - 2010-11-19 14:11:15 --> Config Class Initialized
+DEBUG - 2010-11-19 14:11:15 --> Hooks Class Initialized
+DEBUG - 2010-11-19 14:11:15 --> URI Class Initialized
+ERROR - 2010-11-19 14:11:15 --> 404 Page Not Found --> images
+ERROR - 2010-11-19 14:11:15 --> 404 Page Not Found --> images
+DEBUG - 2010-11-19 14:11:15 --> Config Class Initialized
+DEBUG - 2010-11-19 14:11:15 --> Hooks Class Initialized
+DEBUG - 2010-11-19 14:11:15 --> URI Class Initialized
+ERROR - 2010-11-19 14:11:15 --> 404 Page Not Found --> public
+DEBUG - 2010-11-19 14:11:28 --> Config Class Initialized
+DEBUG - 2010-11-19 14:11:28 --> Hooks Class Initialized
+DEBUG - 2010-11-19 14:11:28 --> URI Class Initialized
+DEBUG - 2010-11-19 14:11:28 --> No URI present. Default controller set.
+DEBUG - 2010-11-19 14:11:28 --> Router Class Initialized
+DEBUG - 2010-11-19 14:11:28 --> Output Class Initialized
+DEBUG - 2010-11-19 14:11:28 --> Input Class Initialized
+DEBUG - 2010-11-19 14:11:28 --> Global POST and COOKIE data sanitized
+DEBUG - 2010-11-19 14:11:28 --> Language Class Initialized
+DEBUG - 2010-11-19 14:11:28 --> Loader Class Initialized
+DEBUG - 2010-11-19 14:11:28 --> Helper loaded: url_helper
+DEBUG - 2010-11-19 14:11:28 --> Helper loaded: file_helper
+DEBUG - 2010-11-19 14:11:28 --> Helper loaded: language_helper
+DEBUG - 2010-11-19 14:11:28 --> Database Driver Class Initialized
+DEBUG - 2010-11-19 14:11:28 --> Session Class Initialized
+DEBUG - 2010-11-19 14:11:28 --> Helper loaded: string_helper
+DEBUG - 2010-11-19 14:11:28 --> Session routines successfully run
+DEBUG - 2010-11-19 14:11:28 --> Controller Class Initialized
+DEBUG - 2010-11-19 14:11:28 --> File loaded: /Users/mac/Sites/efg/system/application/views/main.php
+DEBUG - 2010-11-19 14:11:28 --> Final output sent to browser
+DEBUG - 2010-11-19 14:11:28 --> Total execution time: 0.0268
+DEBUG - 2010-11-19 14:11:28 --> Config Class Initialized
+DEBUG - 2010-11-19 14:11:28 --> Hooks Class Initialized
+DEBUG - 2010-11-19 14:11:28 --> URI Class Initialized
+ERROR - 2010-11-19 14:11:28 --> 404 Page Not Found --> images
+DEBUG - 2010-11-19 14:11:28 --> Config Class Initialized
+DEBUG - 2010-11-19 14:11:28 --> Hooks Class Initialized
+DEBUG - 2010-11-19 14:11:28 --> URI Class Initialized
+ERROR - 2010-11-19 14:11:28 --> 404 Page Not Found --> images
+DEBUG - 2010-11-19 14:11:28 --> Config Class Initialized
+DEBUG - 2010-11-19 14:11:28 --> Hooks Class Initialized
+DEBUG - 2010-11-19 14:11:28 --> URI Class Initialized
+ERROR - 2010-11-19 14:11:28 --> 404 Page Not Found --> public
+DEBUG - 2010-11-19 14:12:01 --> Config Class Initialized
+DEBUG - 2010-11-19 14:12:01 --> Hooks Class Initialized
+DEBUG - 2010-11-19 14:12:01 --> URI Class Initialized
+DEBUG - 2010-11-19 14:12:01 --> No URI present. Default controller set.
+DEBUG - 2010-11-19 14:12:01 --> Router Class Initialized
+DEBUG - 2010-11-19 14:12:01 --> Output Class Initialized
+DEBUG - 2010-11-19 14:12:01 --> Input Class Initialized
+DEBUG - 2010-11-19 14:12:01 --> Global POST and COOKIE data sanitized
+DEBUG - 2010-11-19 14:12:01 --> Language Class Initialized
+DEBUG - 2010-11-19 14:12:01 --> Loader Class Initialized
+DEBUG - 2010-11-19 14:12:01 --> Helper loaded: url_helper
+DEBUG - 2010-11-19 14:12:01 --> Helper loaded: file_helper
+DEBUG - 2010-11-19 14:12:01 --> Helper loaded: language_helper
+DEBUG - 2010-11-19 14:12:01 --> Database Driver Class Initialized
+DEBUG - 2010-11-19 14:12:01 --> Session Class Initialized
+DEBUG - 2010-11-19 14:12:01 --> Helper loaded: string_helper
+DEBUG - 2010-11-19 14:12:01 --> Session routines successfully run
+DEBUG - 2010-11-19 14:12:01 --> Controller Class Initialized
+DEBUG - 2010-11-19 14:12:01 --> File loaded: /Users/mac/Sites/efg/system/application/views/main.php
+DEBUG - 2010-11-19 14:12:01 --> Final output sent to browser
+DEBUG - 2010-11-19 14:12:01 --> Total execution time: 0.0296
+DEBUG - 2010-11-19 14:12:01 --> Config Class Initialized
+DEBUG - 2010-11-19 14:12:01 --> Hooks Class Initialized
+DEBUG - 2010-11-19 14:12:01 --> URI Class Initialized
+ERROR - 2010-11-19 14:12:01 --> 404 Page Not Found --> images
+DEBUG - 2010-11-19 14:12:01 --> Config Class Initialized
+DEBUG - 2010-11-19 14:12:01 --> Hooks Class Initialized
+DEBUG - 2010-11-19 14:12:01 --> URI Class Initialized
+ERROR - 2010-11-19 14:12:01 --> 404 Page Not Found --> images
+DEBUG - 2010-11-19 14:12:02 --> Config Class Initialized
+DEBUG - 2010-11-19 14:12:02 --> Hooks Class Initialized
+DEBUG - 2010-11-19 14:12:02 --> URI Class Initialized
+ERROR - 2010-11-19 14:12:02 --> 404 Page Not Found --> public
+DEBUG - 2010-11-19 14:12:31 --> Config Class Initialized
+DEBUG - 2010-11-19 14:12:31 --> Hooks Class Initialized
+DEBUG - 2010-11-19 14:12:31 --> URI Class Initialized
+DEBUG - 2010-11-19 14:12:31 --> No URI present. Default controller set.
+DEBUG - 2010-11-19 14:12:31 --> Router Class Initialized
+DEBUG - 2010-11-19 14:12:31 --> Output Class Initialized
+DEBUG - 2010-11-19 14:12:31 --> Input Class Initialized
+DEBUG - 2010-11-19 14:12:31 --> Global POST and COOKIE data sanitized
+DEBUG - 2010-11-19 14:12:31 --> Language Class Initialized
+DEBUG - 2010-11-19 14:12:31 --> Loader Class Initialized
+DEBUG - 2010-11-19 14:12:31 --> Helper loaded: url_helper
+DEBUG - 2010-11-19 14:12:31 --> Helper loaded: file_helper
+DEBUG - 2010-11-19 14:12:31 --> Helper loaded: language_helper
+DEBUG - 2010-11-19 14:12:31 --> Database Driver Class Initialized
+DEBUG - 2010-11-19 14:12:31 --> Session Class Initialized
+DEBUG - 2010-11-19 14:12:31 --> Helper loaded: string_helper
+DEBUG - 2010-11-19 14:12:31 --> Session routines successfully run
+DEBUG - 2010-11-19 14:12:31 --> Controller Class Initialized
+DEBUG - 2010-11-19 14:12:31 --> File loaded: /Users/mac/Sites/efg/system/application/views/main.php
+DEBUG - 2010-11-19 14:12:31 --> Final output sent to browser
+DEBUG - 2010-11-19 14:12:31 --> Total execution time: 0.0301
+DEBUG - 2010-11-19 14:12:31 --> Config Class Initialized
+DEBUG - 2010-11-19 14:12:31 --> Hooks Class Initialized
+DEBUG - 2010-11-19 14:12:31 --> URI Class Initialized
+DEBUG - 2010-11-19 14:12:31 --> Config Class Initialized
+DEBUG - 2010-11-19 14:12:31 --> Hooks Class Initialized
+ERROR - 2010-11-19 14:12:31 --> 404 Page Not Found --> images
+DEBUG - 2010-11-19 14:12:31 --> URI Class Initialized
+ERROR - 2010-11-19 14:12:31 --> 404 Page Not Found --> images
+DEBUG - 2010-11-19 14:12:31 --> Config Class Initialized
+DEBUG - 2010-11-19 14:12:31 --> Hooks Class Initialized
+DEBUG - 2010-11-19 14:12:31 --> URI Class Initialized
+ERROR - 2010-11-19 14:12:31 --> 404 Page Not Found --> public
+DEBUG - 2010-11-19 14:17:19 --> Config Class Initialized
+DEBUG - 2010-11-19 14:17:19 --> Hooks Class Initialized
+DEBUG - 2010-11-19 14:17:19 --> URI Class Initialized
+DEBUG - 2010-11-19 14:17:19 --> No URI present. Default controller set.
+DEBUG - 2010-11-19 14:17:19 --> Router Class Initialized
+DEBUG - 2010-11-19 14:17:19 --> Output Class Initialized
+DEBUG - 2010-11-19 14:17:19 --> Input Class Initialized
+DEBUG - 2010-11-19 14:17:19 --> Global POST and COOKIE data sanitized
+DEBUG - 2010-11-19 14:17:19 --> Language Class Initialized
+DEBUG - 2010-11-19 14:17:19 --> Loader Class Initialized
+DEBUG - 2010-11-19 14:17:19 --> Helper loaded: url_helper
+DEBUG - 2010-11-19 14:17:19 --> Helper loaded: file_helper
+DEBUG - 2010-11-19 14:17:19 --> Helper loaded: language_helper
+DEBUG - 2010-11-19 14:17:19 --> Database Driver Class Initialized
+DEBUG - 2010-11-19 14:17:19 --> Session Class Initialized
+DEBUG - 2010-11-19 14:17:19 --> Helper loaded: string_helper
+DEBUG - 2010-11-19 14:17:19 --> Session routines successfully run
+DEBUG - 2010-11-19 14:17:19 --> Pagination Class Initialized
+DEBUG - 2010-11-19 14:17:19 --> Controller Class Initialized
+ERROR - 2010-11-19 14:17:19 --> Severity: Notice  --> Undefined variable: data /Users/mac/Sites/efg/system/application/controllers/welcome.php 10
+DEBUG - 2010-11-19 14:17:19 --> File loaded: /Users/mac/Sites/efg/system/application/views/layout/main.php
+ERROR - 2010-11-19 14:17:19 --> Severity: Warning  --> Invalid argument supplied for foreach() /Users/mac/Sites/efg/system/libraries/Parser.php 55
+DEBUG - 2010-11-19 14:17:19 --> Final output sent to browser
+DEBUG - 2010-11-19 14:17:19 --> Total execution time: 0.0301
+DEBUG - 2010-11-19 14:17:19 --> Config Class Initialized
+DEBUG - 2010-11-19 14:17:19 --> Hooks Class Initialized
+DEBUG - 2010-11-19 14:17:19 --> URI Class Initialized
+ERROR - 2010-11-19 14:17:19 --> 404 Page Not Found --> images
+DEBUG - 2010-11-19 14:17:19 --> Config Class Initialized
+DEBUG - 2010-11-19 14:17:19 --> Hooks Class Initialized
+DEBUG - 2010-11-19 14:17:19 --> URI Class Initialized
+ERROR - 2010-11-19 14:17:19 --> 404 Page Not Found --> images
+DEBUG - 2010-11-19 14:17:20 --> Config Class Initialized
+DEBUG - 2010-11-19 14:17:20 --> Hooks Class Initialized
+DEBUG - 2010-11-19 14:17:20 --> URI Class Initialized
+ERROR - 2010-11-19 14:17:20 --> 404 Page Not Found --> public
+DEBUG - 2010-11-19 14:17:41 --> Config Class Initialized
+DEBUG - 2010-11-19 14:17:41 --> Hooks Class Initialized
+DEBUG - 2010-11-19 14:17:41 --> URI Class Initialized
+DEBUG - 2010-11-19 14:17:41 --> No URI present. Default controller set.
+DEBUG - 2010-11-19 14:17:41 --> Router Class Initialized
+DEBUG - 2010-11-19 14:17:41 --> Output Class Initialized
+DEBUG - 2010-11-19 14:17:41 --> Input Class Initialized
+DEBUG - 2010-11-19 14:17:41 --> Global POST and COOKIE data sanitized
+DEBUG - 2010-11-19 14:17:41 --> Language Class Initialized
+DEBUG - 2010-11-19 14:17:41 --> Loader Class Initialized
+DEBUG - 2010-11-19 14:17:41 --> Helper loaded: url_helper
+DEBUG - 2010-11-19 14:17:41 --> Helper loaded: file_helper
+DEBUG - 2010-11-19 14:17:41 --> Helper loaded: language_helper
+DEBUG - 2010-11-19 14:17:41 --> Database Driver Class Initialized
+DEBUG - 2010-11-19 14:17:41 --> Session Class Initialized
+DEBUG - 2010-11-19 14:17:41 --> Helper loaded: string_helper
+DEBUG - 2010-11-19 14:17:41 --> Session routines successfully run
+DEBUG - 2010-11-19 14:17:41 --> Pagination Class Initialized
+DEBUG - 2010-11-19 14:17:41 --> Controller Class Initialized
+DEBUG - 2010-11-19 14:17:41 --> File loaded: /Users/mac/Sites/efg/system/application/views/layout/main.php
+DEBUG - 2010-11-19 14:17:41 --> Final output sent to browser
+DEBUG - 2010-11-19 14:17:41 --> Total execution time: 0.0279
+DEBUG - 2010-11-19 14:17:41 --> Config Class Initialized
+DEBUG - 2010-11-19 14:17:41 --> Hooks Class Initialized
+DEBUG - 2010-11-19 14:17:41 --> URI Class Initialized
+ERROR - 2010-11-19 14:17:41 --> 404 Page Not Found --> images
+DEBUG - 2010-11-19 14:17:41 --> Config Class Initialized
+DEBUG - 2010-11-19 14:17:41 --> Hooks Class Initialized
+DEBUG - 2010-11-19 14:17:41 --> URI Class Initialized
+ERROR - 2010-11-19 14:17:41 --> 404 Page Not Found --> images
+DEBUG - 2010-11-19 14:17:42 --> Config Class Initialized
+DEBUG - 2010-11-19 14:17:42 --> Hooks Class Initialized
+DEBUG - 2010-11-19 14:17:42 --> URI Class Initialized
+ERROR - 2010-11-19 14:17:42 --> 404 Page Not Found --> public
+DEBUG - 2010-11-19 14:20:11 --> Config Class Initialized
+DEBUG - 2010-11-19 14:20:11 --> Hooks Class Initialized
+DEBUG - 2010-11-19 14:20:11 --> URI Class Initialized
+DEBUG - 2010-11-19 14:20:12 --> No URI present. Default controller set.
+DEBUG - 2010-11-19 14:20:12 --> Router Class Initialized
+DEBUG - 2010-11-19 14:20:12 --> Output Class Initialized
+DEBUG - 2010-11-19 14:20:12 --> Input Class Initialized
+DEBUG - 2010-11-19 14:20:12 --> Global POST and COOKIE data sanitized
+DEBUG - 2010-11-19 14:20:12 --> Language Class Initialized
+DEBUG - 2010-11-19 14:20:12 --> Loader Class Initialized
+DEBUG - 2010-11-19 14:20:12 --> Helper loaded: url_helper
+DEBUG - 2010-11-19 14:20:12 --> Helper loaded: file_helper
+DEBUG - 2010-11-19 14:20:12 --> Helper loaded: language_helper
+DEBUG - 2010-11-19 14:20:12 --> Database Driver Class Initialized
+DEBUG - 2010-11-19 14:20:12 --> Session Class Initialized
+DEBUG - 2010-11-19 14:20:12 --> Helper loaded: string_helper
+DEBUG - 2010-11-19 14:20:12 --> Session routines successfully run
+DEBUG - 2010-11-19 14:20:12 --> Pagination Class Initialized
+DEBUG - 2010-11-19 14:20:12 --> Controller Class Initialized
+DEBUG - 2010-11-19 14:20:12 --> File loaded: /Users/mac/Sites/efg/system/application/views/layout/main.php
+DEBUG - 2010-11-19 14:20:12 --> Final output sent to browser
+DEBUG - 2010-11-19 14:20:12 --> Total execution time: 0.0314
+DEBUG - 2010-11-19 14:20:12 --> Config Class Initialized
+DEBUG - 2010-11-19 14:20:12 --> Hooks Class Initialized
+DEBUG - 2010-11-19 14:20:12 --> Config Class Initialized
+DEBUG - 2010-11-19 14:20:12 --> Hooks Class Initialized
+DEBUG - 2010-11-19 14:20:12 --> URI Class Initialized
+ERROR - 2010-11-19 14:20:12 --> 404 Page Not Found --> images
+DEBUG - 2010-11-19 14:20:12 --> URI Class Initialized
+ERROR - 2010-11-19 14:20:12 --> 404 Page Not Found --> images
+DEBUG - 2010-11-19 14:20:12 --> Config Class Initialized
+DEBUG - 2010-11-19 14:20:12 --> Hooks Class Initialized
+DEBUG - 2010-11-19 14:20:12 --> URI Class Initialized
+ERROR - 2010-11-19 14:20:12 --> 404 Page Not Found --> public
+DEBUG - 2010-11-19 14:21:42 --> Config Class Initialized
+DEBUG - 2010-11-19 14:21:42 --> Hooks Class Initialized
+DEBUG - 2010-11-19 14:21:42 --> URI Class Initialized
+DEBUG - 2010-11-19 14:21:42 --> No URI present. Default controller set.
+DEBUG - 2010-11-19 14:21:42 --> Router Class Initialized
+DEBUG - 2010-11-19 14:21:42 --> Output Class Initialized
+DEBUG - 2010-11-19 14:21:42 --> Input Class Initialized
+DEBUG - 2010-11-19 14:21:42 --> Global POST and COOKIE data sanitized
+DEBUG - 2010-11-19 14:21:42 --> Language Class Initialized
+DEBUG - 2010-11-19 14:21:42 --> Loader Class Initialized
+DEBUG - 2010-11-19 14:21:42 --> Helper loaded: url_helper
+DEBUG - 2010-11-19 14:21:42 --> Helper loaded: file_helper
+DEBUG - 2010-11-19 14:21:42 --> Helper loaded: language_helper
+DEBUG - 2010-11-19 14:21:42 --> Database Driver Class Initialized
+DEBUG - 2010-11-19 14:21:42 --> Session Class Initialized
+DEBUG - 2010-11-19 14:21:42 --> Helper loaded: string_helper
+DEBUG - 2010-11-19 14:21:42 --> Session routines successfully run
+DEBUG - 2010-11-19 14:21:42 --> Pagination Class Initialized
+DEBUG - 2010-11-19 14:21:42 --> Controller Class Initialized
+DEBUG - 2010-11-19 14:21:42 --> File loaded: /Users/mac/Sites/efg/system/application/views/layout/main.php
+DEBUG - 2010-11-19 14:21:42 --> Final output sent to browser
+DEBUG - 2010-11-19 14:21:42 --> Total execution time: 0.0290
+DEBUG - 2010-11-19 14:21:42 --> Config Class Initialized
+DEBUG - 2010-11-19 14:21:42 --> Hooks Class Initialized
+DEBUG - 2010-11-19 14:21:42 --> URI Class Initialized
+ERROR - 2010-11-19 14:21:42 --> 404 Page Not Found --> public
+DEBUG - 2010-11-19 14:31:31 --> Config Class Initialized
+DEBUG - 2010-11-19 14:31:31 --> Hooks Class Initialized
+DEBUG - 2010-11-19 14:31:31 --> URI Class Initialized
+DEBUG - 2010-11-19 14:31:31 --> No URI present. Default controller set.
+DEBUG - 2010-11-19 14:31:31 --> Router Class Initialized
+DEBUG - 2010-11-19 14:31:31 --> Output Class Initialized
+DEBUG - 2010-11-19 14:31:31 --> Input Class Initialized
+DEBUG - 2010-11-19 14:31:31 --> Global POST and COOKIE data sanitized
+DEBUG - 2010-11-19 14:31:31 --> Language Class Initialized
+DEBUG - 2010-11-19 14:31:31 --> Loader Class Initialized
+DEBUG - 2010-11-19 14:31:31 --> Helper loaded: url_helper
+DEBUG - 2010-11-19 14:31:31 --> Helper loaded: file_helper
+DEBUG - 2010-11-19 14:31:31 --> Helper loaded: language_helper
+DEBUG - 2010-11-19 14:31:31 --> Database Driver Class Initialized
+DEBUG - 2010-11-19 14:31:31 --> Session Class Initialized
+DEBUG - 2010-11-19 14:31:31 --> Helper loaded: string_helper
+DEBUG - 2010-11-19 14:31:31 --> Session routines successfully run
+DEBUG - 2010-11-19 14:31:31 --> Pagination Class Initialized
+DEBUG - 2010-11-19 14:31:31 --> Controller Class Initialized
+DEBUG - 2010-11-19 14:31:31 --> File loaded: /Users/mac/Sites/efg/system/application/views/index/wel.php
+DEBUG - 2010-11-19 14:31:31 --> File loaded: /Users/mac/Sites/efg/system/application/views/layout/main.php
+DEBUG - 2010-11-19 14:31:31 --> Final output sent to browser
+DEBUG - 2010-11-19 14:31:31 --> Total execution time: 0.0327
+DEBUG - 2010-11-19 14:31:31 --> Config Class Initialized
+DEBUG - 2010-11-19 14:31:31 --> Hooks Class Initialized
+DEBUG - 2010-11-19 14:31:31 --> Config Class Initialized
+DEBUG - 2010-11-19 14:31:31 --> Hooks Class Initialized
+DEBUG - 2010-11-19 14:31:31 --> URI Class Initialized
+ERROR - 2010-11-19 14:31:31 --> 404 Page Not Found --> images
+DEBUG - 2010-11-19 14:31:31 --> URI Class Initialized
+ERROR - 2010-11-19 14:31:31 --> 404 Page Not Found --> images
+DEBUG - 2010-11-19 14:31:31 --> Config Class Initialized
+DEBUG - 2010-11-19 14:31:31 --> Hooks Class Initialized
+DEBUG - 2010-11-19 14:31:31 --> URI Class Initialized
+ERROR - 2010-11-19 14:31:31 --> 404 Page Not Found --> public
+DEBUG - 2010-11-19 14:31:33 --> Config Class Initialized
+DEBUG - 2010-11-19 14:31:33 --> Hooks Class Initialized
+DEBUG - 2010-11-19 14:31:33 --> URI Class Initialized
+DEBUG - 2010-11-19 14:31:33 --> No URI present. Default controller set.
+DEBUG - 2010-11-19 14:31:33 --> Router Class Initialized
+DEBUG - 2010-11-19 14:31:33 --> Output Class Initialized
+DEBUG - 2010-11-19 14:31:33 --> Input Class Initialized
+DEBUG - 2010-11-19 14:31:33 --> Global POST and COOKIE data sanitized
+DEBUG - 2010-11-19 14:31:33 --> Language Class Initialized
+DEBUG - 2010-11-19 14:31:33 --> Loader Class Initialized
+DEBUG - 2010-11-19 14:31:33 --> Helper loaded: url_helper
+DEBUG - 2010-11-19 14:31:33 --> Helper loaded: file_helper
+DEBUG - 2010-11-19 14:31:33 --> Helper loaded: language_helper
+DEBUG - 2010-11-19 14:31:33 --> Database Driver Class Initialized
+DEBUG - 2010-11-19 14:31:33 --> Session Class Initialized
+DEBUG - 2010-11-19 14:31:33 --> Helper loaded: string_helper
+DEBUG - 2010-11-19 14:31:33 --> Session routines successfully run
+DEBUG - 2010-11-19 14:31:33 --> Pagination Class Initialized
+DEBUG - 2010-11-19 14:31:33 --> Controller Class Initialized
+DEBUG - 2010-11-19 14:31:33 --> File loaded: /Users/mac/Sites/efg/system/application/views/index/wel.php
+DEBUG - 2010-11-19 14:31:33 --> File loaded: /Users/mac/Sites/efg/system/application/views/layout/main.php
+DEBUG - 2010-11-19 14:31:33 --> Final output sent to browser
+DEBUG - 2010-11-19 14:31:33 --> Total execution time: 0.0306
+DEBUG - 2010-11-19 14:31:33 --> Config Class Initialized
+DEBUG - 2010-11-19 14:31:33 --> Hooks Class Initialized
+DEBUG - 2010-11-19 14:31:33 --> URI Class Initialized
+ERROR - 2010-11-19 14:31:33 --> 404 Page Not Found --> images
+DEBUG - 2010-11-19 14:31:33 --> Config Class Initialized
+DEBUG - 2010-11-19 14:31:33 --> Hooks Class Initialized
+DEBUG - 2010-11-19 14:31:33 --> URI Class Initialized
+ERROR - 2010-11-19 14:31:33 --> 404 Page Not Found --> images
+DEBUG - 2010-11-19 14:31:33 --> Config Class Initialized
+DEBUG - 2010-11-19 14:31:33 --> Hooks Class Initialized
+DEBUG - 2010-11-19 14:31:33 --> URI Class Initialized
+ERROR - 2010-11-19 14:31:33 --> 404 Page Not Found --> public
+DEBUG - 2010-11-19 14:32:41 --> Config Class Initialized
+DEBUG - 2010-11-19 14:32:41 --> Hooks Class Initialized
+DEBUG - 2010-11-19 14:32:41 --> URI Class Initialized
+DEBUG - 2010-11-19 14:32:41 --> No URI present. Default controller set.
+DEBUG - 2010-11-19 14:32:41 --> Router Class Initialized
+DEBUG - 2010-11-19 14:32:41 --> Output Class Initialized
+DEBUG - 2010-11-19 14:32:41 --> Input Class Initialized
+DEBUG - 2010-11-19 14:32:41 --> Global POST and COOKIE data sanitized
+DEBUG - 2010-11-19 14:32:41 --> Language Class Initialized
+DEBUG - 2010-11-19 14:32:51 --> Config Class Initialized
+DEBUG - 2010-11-19 14:32:51 --> Hooks Class Initialized
+DEBUG - 2010-11-19 14:32:51 --> URI Class Initialized
+DEBUG - 2010-11-19 14:32:51 --> No URI present. Default controller set.
+DEBUG - 2010-11-19 14:32:51 --> Router Class Initialized
+DEBUG - 2010-11-19 14:32:51 --> Output Class Initialized
+DEBUG - 2010-11-19 14:32:51 --> Input Class Initialized
+DEBUG - 2010-11-19 14:32:51 --> Global POST and COOKIE data sanitized
+DEBUG - 2010-11-19 14:32:51 --> Language Class Initialized
+DEBUG - 2010-11-19 14:32:51 --> Loader Class Initialized
+DEBUG - 2010-11-19 14:32:51 --> Helper loaded: url_helper
+DEBUG - 2010-11-19 14:32:51 --> Helper loaded: file_helper
+DEBUG - 2010-11-19 14:32:51 --> Helper loaded: language_helper
+DEBUG - 2010-11-19 14:32:51 --> Database Driver Class Initialized
+DEBUG - 2010-11-19 14:32:51 --> Session Class Initialized
+DEBUG - 2010-11-19 14:32:51 --> Helper loaded: string_helper
+DEBUG - 2010-11-19 14:32:51 --> Session routines successfully run
+DEBUG - 2010-11-19 14:32:51 --> Pagination Class Initialized
+DEBUG - 2010-11-19 14:32:51 --> Controller Class Initialized
+DEBUG - 2010-11-19 14:32:51 --> File loaded: /Users/mac/Sites/efg/system/application/views/index/wel.php
+DEBUG - 2010-11-19 14:32:51 --> File loaded: /Users/mac/Sites/efg/system/application/views/layout/main.php
+DEBUG - 2010-11-19 14:32:51 --> Final output sent to browser
+DEBUG - 2010-11-19 14:32:51 --> Total execution time: 0.0307
+DEBUG - 2010-11-19 14:32:51 --> Config Class Initialized
+DEBUG - 2010-11-19 14:32:51 --> Hooks Class Initialized
+DEBUG - 2010-11-19 14:32:51 --> URI Class Initialized
+ERROR - 2010-11-19 14:32:51 --> 404 Page Not Found --> images
+DEBUG - 2010-11-19 14:32:51 --> Config Class Initialized
+DEBUG - 2010-11-19 14:32:51 --> Hooks Class Initialized
+DEBUG - 2010-11-19 14:32:51 --> URI Class Initialized
+ERROR - 2010-11-19 14:32:51 --> 404 Page Not Found --> images
+DEBUG - 2010-11-19 14:32:52 --> Config Class Initialized
+DEBUG - 2010-11-19 14:32:52 --> Hooks Class Initialized
+DEBUG - 2010-11-19 14:32:52 --> URI Class Initialized
+ERROR - 2010-11-19 14:32:52 --> 404 Page Not Found --> public
+DEBUG - 2010-11-19 14:32:59 --> Config Class Initialized
+DEBUG - 2010-11-19 14:32:59 --> Hooks Class Initialized
+DEBUG - 2010-11-19 14:32:59 --> URI Class Initialized
+DEBUG - 2010-11-19 14:32:59 --> No URI present. Default controller set.
+DEBUG - 2010-11-19 14:32:59 --> Router Class Initialized
+DEBUG - 2010-11-19 14:32:59 --> Output Class Initialized
+DEBUG - 2010-11-19 14:32:59 --> Input Class Initialized
+DEBUG - 2010-11-19 14:32:59 --> Global POST and COOKIE data sanitized
+DEBUG - 2010-11-19 14:32:59 --> Language Class Initialized
+DEBUG - 2010-11-19 14:32:59 --> Loader Class Initialized
+DEBUG - 2010-11-19 14:32:59 --> Helper loaded: url_helper
+DEBUG - 2010-11-19 14:32:59 --> Helper loaded: file_helper
+DEBUG - 2010-11-19 14:32:59 --> Helper loaded: language_helper
+DEBUG - 2010-11-19 14:32:59 --> Database Driver Class Initialized
+DEBUG - 2010-11-19 14:32:59 --> Session Class Initialized
+DEBUG - 2010-11-19 14:32:59 --> Helper loaded: string_helper
+DEBUG - 2010-11-19 14:32:59 --> Session routines successfully run
+DEBUG - 2010-11-19 14:32:59 --> Pagination Class Initialized
+DEBUG - 2010-11-19 14:32:59 --> Controller Class Initialized
+DEBUG - 2010-11-19 14:32:59 --> File loaded: /Users/mac/Sites/efg/system/application/views/index/wel.php
+DEBUG - 2010-11-19 14:32:59 --> File loaded: /Users/mac/Sites/efg/system/application/views/layout/main.php
+DEBUG - 2010-11-19 14:32:59 --> Final output sent to browser
+DEBUG - 2010-11-19 14:32:59 --> Total execution time: 0.0321
+DEBUG - 2010-11-19 14:32:59 --> Config Class Initialized
+DEBUG - 2010-11-19 14:32:59 --> Hooks Class Initialized
+DEBUG - 2010-11-19 14:32:59 --> URI Class Initialized
+ERROR - 2010-11-19 14:32:59 --> 404 Page Not Found --> images
+DEBUG - 2010-11-19 14:32:59 --> Config Class Initialized
+DEBUG - 2010-11-19 14:32:59 --> Hooks Class Initialized
+DEBUG - 2010-11-19 14:32:59 --> URI Class Initialized
+ERROR - 2010-11-19 14:32:59 --> 404 Page Not Found --> images
+DEBUG - 2010-11-19 14:32:59 --> Config Class Initialized
+DEBUG - 2010-11-19 14:32:59 --> Hooks Class Initialized
+DEBUG - 2010-11-19 14:32:59 --> URI Class Initialized
+ERROR - 2010-11-19 14:32:59 --> 404 Page Not Found --> public
+DEBUG - 2010-11-19 14:33:08 --> Config Class Initialized
+DEBUG - 2010-11-19 14:33:08 --> Hooks Class Initialized
+DEBUG - 2010-11-19 14:33:08 --> URI Class Initialized
+DEBUG - 2010-11-19 14:33:08 --> No URI present. Default controller set.
+DEBUG - 2010-11-19 14:33:08 --> Router Class Initialized
+DEBUG - 2010-11-19 14:33:08 --> Output Class Initialized
+DEBUG - 2010-11-19 14:33:08 --> Input Class Initialized
+DEBUG - 2010-11-19 14:33:08 --> Global POST and COOKIE data sanitized
+DEBUG - 2010-11-19 14:33:08 --> Language Class Initialized
+DEBUG - 2010-11-19 14:33:08 --> Loader Class Initialized
+DEBUG - 2010-11-19 14:33:08 --> Helper loaded: url_helper
+DEBUG - 2010-11-19 14:33:08 --> Helper loaded: file_helper
+DEBUG - 2010-11-19 14:33:08 --> Helper loaded: language_helper
+DEBUG - 2010-11-19 14:33:08 --> Database Driver Class Initialized
+DEBUG - 2010-11-19 14:33:08 --> Session Class Initialized
+DEBUG - 2010-11-19 14:33:08 --> Helper loaded: string_helper
+DEBUG - 2010-11-19 14:33:08 --> Session routines successfully run
+DEBUG - 2010-11-19 14:33:08 --> Pagination Class Initialized
+DEBUG - 2010-11-19 14:33:08 --> Controller Class Initialized
+DEBUG - 2010-11-19 14:33:08 --> File loaded: /Users/mac/Sites/efg/system/application/views/index/wel.php
+DEBUG - 2010-11-19 14:33:08 --> File loaded: /Users/mac/Sites/efg/system/application/views/layout/main.php
+DEBUG - 2010-11-19 14:33:08 --> Final output sent to browser
+DEBUG - 2010-11-19 14:33:08 --> Total execution time: 0.0320
+DEBUG - 2010-11-19 14:33:08 --> Config Class Initialized
+DEBUG - 2010-11-19 14:33:08 --> Hooks Class Initialized
+DEBUG - 2010-11-19 14:33:08 --> URI Class Initialized
+ERROR - 2010-11-19 14:33:08 --> 404 Page Not Found --> images
+DEBUG - 2010-11-19 14:33:08 --> Config Class Initialized
+DEBUG - 2010-11-19 14:33:08 --> Hooks Class Initialized
+DEBUG - 2010-11-19 14:33:08 --> URI Class Initialized
+ERROR - 2010-11-19 14:33:08 --> 404 Page Not Found --> images
+DEBUG - 2010-11-19 14:33:08 --> Config Class Initialized
+DEBUG - 2010-11-19 14:33:08 --> Hooks Class Initialized
+DEBUG - 2010-11-19 14:33:08 --> URI Class Initialized
+ERROR - 2010-11-19 14:33:08 --> 404 Page Not Found --> public
+DEBUG - 2010-11-19 14:34:33 --> Config Class Initialized
+DEBUG - 2010-11-19 14:34:33 --> Hooks Class Initialized
+DEBUG - 2010-11-19 14:34:33 --> URI Class Initialized
+DEBUG - 2010-11-19 14:34:33 --> No URI present. Default controller set.
+DEBUG - 2010-11-19 14:34:33 --> Router Class Initialized
+DEBUG - 2010-11-19 14:34:33 --> Output Class Initialized
+DEBUG - 2010-11-19 14:34:33 --> Input Class Initialized
+DEBUG - 2010-11-19 14:34:33 --> Global POST and COOKIE data sanitized
+DEBUG - 2010-11-19 14:34:33 --> Language Class Initialized
+DEBUG - 2010-11-19 14:34:33 --> Loader Class Initialized
+DEBUG - 2010-11-19 14:34:33 --> Helper loaded: url_helper
+DEBUG - 2010-11-19 14:34:33 --> Helper loaded: file_helper
+DEBUG - 2010-11-19 14:34:33 --> Helper loaded: language_helper
+DEBUG - 2010-11-19 14:34:33 --> Database Driver Class Initialized
+DEBUG - 2010-11-19 14:34:33 --> Session Class Initialized
+DEBUG - 2010-11-19 14:34:33 --> Helper loaded: string_helper
+DEBUG - 2010-11-19 14:34:33 --> Session routines successfully run
+DEBUG - 2010-11-19 14:34:33 --> Pagination Class Initialized
+DEBUG - 2010-11-19 14:34:33 --> Controller Class Initialized
+DEBUG - 2010-11-19 14:34:33 --> File loaded: /Users/mac/Sites/efg/system/application/views/index/wel.php
+DEBUG - 2010-11-19 14:34:33 --> File loaded: /Users/mac/Sites/efg/system/application/views/layout/footer.php
+DEBUG - 2010-11-19 14:34:33 --> File loaded: /Users/mac/Sites/efg/system/application/views/layout/main.php
+DEBUG - 2010-11-19 14:34:33 --> Final output sent to browser
+DEBUG - 2010-11-19 14:34:33 --> Total execution time: 0.0315
+DEBUG - 2010-11-19 14:34:33 --> Config Class Initialized
+DEBUG - 2010-11-19 14:34:33 --> Hooks Class Initialized
+DEBUG - 2010-11-19 14:34:33 --> Config Class Initialized
+DEBUG - 2010-11-19 14:34:33 --> Hooks Class Initialized
+DEBUG - 2010-11-19 14:34:33 --> URI Class Initialized
+ERROR - 2010-11-19 14:34:33 --> 404 Page Not Found --> images
+DEBUG - 2010-11-19 14:34:33 --> URI Class Initialized
+ERROR - 2010-11-19 14:34:33 --> 404 Page Not Found --> images
+DEBUG - 2010-11-19 14:34:33 --> Config Class Initialized
+DEBUG - 2010-11-19 14:34:33 --> Hooks Class Initialized
+DEBUG - 2010-11-19 14:34:33 --> URI Class Initialized
+ERROR - 2010-11-19 14:34:33 --> 404 Page Not Found --> public
+DEBUG - 2010-11-19 14:34:37 --> Config Class Initialized
+DEBUG - 2010-11-19 14:34:37 --> Hooks Class Initialized
+DEBUG - 2010-11-19 14:34:37 --> URI Class Initialized
+DEBUG - 2010-11-19 14:34:37 --> No URI present. Default controller set.
+DEBUG - 2010-11-19 14:34:37 --> Router Class Initialized
+DEBUG - 2010-11-19 14:34:37 --> Output Class Initialized
+DEBUG - 2010-11-19 14:34:37 --> Input Class Initialized
+DEBUG - 2010-11-19 14:34:37 --> Global POST and COOKIE data sanitized
+DEBUG - 2010-11-19 14:34:37 --> Language Class Initialized
+DEBUG - 2010-11-19 14:34:37 --> Loader Class Initialized
+DEBUG - 2010-11-19 14:34:37 --> Helper loaded: url_helper
+DEBUG - 2010-11-19 14:34:37 --> Helper loaded: file_helper
+DEBUG - 2010-11-19 14:34:37 --> Helper loaded: language_helper
+DEBUG - 2010-11-19 14:34:37 --> Database Driver Class Initialized
+DEBUG - 2010-11-19 14:34:37 --> Session Class Initialized
+DEBUG - 2010-11-19 14:34:37 --> Helper loaded: string_helper
+DEBUG - 2010-11-19 14:34:37 --> Session routines successfully run
+DEBUG - 2010-11-19 14:34:37 --> Pagination Class Initialized
+DEBUG - 2010-11-19 14:34:37 --> Controller Class Initialized
+DEBUG - 2010-11-19 14:34:37 --> File loaded: /Users/mac/Sites/efg/system/application/views/index/wel.php
+DEBUG - 2010-11-19 14:34:37 --> File loaded: /Users/mac/Sites/efg/system/application/views/layout/footer.php
+DEBUG - 2010-11-19 14:34:37 --> File loaded: /Users/mac/Sites/efg/system/application/views/layout/main.php
+DEBUG - 2010-11-19 14:34:37 --> Final output sent to browser
+DEBUG - 2010-11-19 14:34:37 --> Total execution time: 0.0305
+DEBUG - 2010-11-19 14:34:37 --> Config Class Initialized
+DEBUG - 2010-11-19 14:34:37 --> Hooks Class Initialized
+DEBUG - 2010-11-19 14:34:37 --> URI Class Initialized
+ERROR - 2010-11-19 14:34:37 --> 404 Page Not Found --> images
+DEBUG - 2010-11-19 14:34:37 --> Config Class Initialized
+DEBUG - 2010-11-19 14:34:37 --> Hooks Class Initialized
+DEBUG - 2010-11-19 14:34:37 --> URI Class Initialized
+ERROR - 2010-11-19 14:34:37 --> 404 Page Not Found --> images
+DEBUG - 2010-11-19 14:34:37 --> Config Class Initialized
+DEBUG - 2010-11-19 14:34:37 --> Hooks Class Initialized
+DEBUG - 2010-11-19 14:34:37 --> URI Class Initialized
+ERROR - 2010-11-19 14:34:37 --> 404 Page Not Found --> public
+DEBUG - 2010-11-19 14:34:38 --> Config Class Initialized
+DEBUG - 2010-11-19 14:34:38 --> Hooks Class Initialized
+DEBUG - 2010-11-19 14:34:38 --> URI Class Initialized
+DEBUG - 2010-11-19 14:34:38 --> No URI present. Default controller set.
+DEBUG - 2010-11-19 14:34:38 --> Router Class Initialized
+DEBUG - 2010-11-19 14:34:38 --> Output Class Initialized
+DEBUG - 2010-11-19 14:34:38 --> Input Class Initialized
+DEBUG - 2010-11-19 14:34:38 --> Global POST and COOKIE data sanitized
+DEBUG - 2010-11-19 14:34:38 --> Language Class Initialized
+DEBUG - 2010-11-19 14:34:38 --> Loader Class Initialized
+DEBUG - 2010-11-19 14:34:38 --> Helper loaded: url_helper
+DEBUG - 2010-11-19 14:34:38 --> Helper loaded: file_helper
+DEBUG - 2010-11-19 14:34:38 --> Helper loaded: language_helper
+DEBUG - 2010-11-19 14:34:38 --> Database Driver Class Initialized
+DEBUG - 2010-11-19 14:34:38 --> Session Class Initialized
+DEBUG - 2010-11-19 14:34:38 --> Helper loaded: string_helper
+DEBUG - 2010-11-19 14:34:38 --> Session routines successfully run
+DEBUG - 2010-11-19 14:34:38 --> Pagination Class Initialized
+DEBUG - 2010-11-19 14:34:38 --> Controller Class Initialized
+DEBUG - 2010-11-19 14:34:38 --> File loaded: /Users/mac/Sites/efg/system/application/views/index/wel.php
+DEBUG - 2010-11-19 14:34:38 --> File loaded: /Users/mac/Sites/efg/system/application/views/layout/footer.php
+DEBUG - 2010-11-19 14:34:38 --> File loaded: /Users/mac/Sites/efg/system/application/views/layout/main.php
+DEBUG - 2010-11-19 14:34:38 --> Final output sent to browser
+DEBUG - 2010-11-19 14:34:38 --> Total execution time: 0.0323
+DEBUG - 2010-11-19 14:34:38 --> Config Class Initialized
+DEBUG - 2010-11-19 14:34:38 --> Hooks Class Initialized
+DEBUG - 2010-11-19 14:34:38 --> URI Class Initialized
+DEBUG - 2010-11-19 14:34:38 --> Config Class Initialized
+ERROR - 2010-11-19 14:34:38 --> 404 Page Not Found --> images
+DEBUG - 2010-11-19 14:34:38 --> Hooks Class Initialized
+DEBUG - 2010-11-19 14:34:38 --> URI Class Initialized
+ERROR - 2010-11-19 14:34:38 --> 404 Page Not Found --> images
+DEBUG - 2010-11-19 14:34:38 --> Config Class Initialized
+DEBUG - 2010-11-19 14:34:38 --> Hooks Class Initialized
+DEBUG - 2010-11-19 14:34:38 --> URI Class Initialized
+ERROR - 2010-11-19 14:34:38 --> 404 Page Not Found --> public
+DEBUG - 2010-11-19 14:34:38 --> Config Class Initialized
+DEBUG - 2010-11-19 14:34:38 --> Hooks Class Initialized
+DEBUG - 2010-11-19 14:34:38 --> URI Class Initialized
+DEBUG - 2010-11-19 14:34:38 --> No URI present. Default controller set.
+DEBUG - 2010-11-19 14:34:38 --> Router Class Initialized
+DEBUG - 2010-11-19 14:34:38 --> Output Class Initialized
+DEBUG - 2010-11-19 14:34:38 --> Input Class Initialized
+DEBUG - 2010-11-19 14:34:38 --> Global POST and COOKIE data sanitized
+DEBUG - 2010-11-19 14:34:38 --> Language Class Initialized
+DEBUG - 2010-11-19 14:34:38 --> Loader Class Initialized
+DEBUG - 2010-11-19 14:34:38 --> Helper loaded: url_helper
+DEBUG - 2010-11-19 14:34:38 --> Helper loaded: file_helper
+DEBUG - 2010-11-19 14:34:38 --> Helper loaded: language_helper
+DEBUG - 2010-11-19 14:34:38 --> Database Driver Class Initialized
+DEBUG - 2010-11-19 14:34:38 --> Session Class Initialized
+DEBUG - 2010-11-19 14:34:38 --> Helper loaded: string_helper
+DEBUG - 2010-11-19 14:34:38 --> Session routines successfully run
+DEBUG - 2010-11-19 14:34:38 --> Pagination Class Initialized
+DEBUG - 2010-11-19 14:34:38 --> Controller Class Initialized
+DEBUG - 2010-11-19 14:34:38 --> File loaded: /Users/mac/Sites/efg/system/application/views/index/wel.php
+DEBUG - 2010-11-19 14:34:38 --> File loaded: /Users/mac/Sites/efg/system/application/views/layout/footer.php
+DEBUG - 2010-11-19 14:34:38 --> File loaded: /Users/mac/Sites/efg/system/application/views/layout/main.php
+DEBUG - 2010-11-19 14:34:38 --> Final output sent to browser
+DEBUG - 2010-11-19 14:34:38 --> Total execution time: 0.0412
+DEBUG - 2010-11-19 14:34:39 --> Config Class Initialized
+DEBUG - 2010-11-19 14:34:39 --> Hooks Class Initialized
+DEBUG - 2010-11-19 14:34:39 --> URI Class Initialized
+ERROR - 2010-11-19 14:34:39 --> 404 Page Not Found --> images
+DEBUG - 2010-11-19 14:34:39 --> Config Class Initialized
+DEBUG - 2010-11-19 14:34:39 --> Hooks Class Initialized
+DEBUG - 2010-11-19 14:34:39 --> URI Class Initialized
+ERROR - 2010-11-19 14:34:39 --> 404 Page Not Found --> images
+DEBUG - 2010-11-19 14:34:39 --> Config Class Initialized
+DEBUG - 2010-11-19 14:34:39 --> Hooks Class Initialized
+DEBUG - 2010-11-19 14:34:39 --> URI Class Initialized
+ERROR - 2010-11-19 14:34:39 --> 404 Page Not Found --> public
+DEBUG - 2010-11-19 14:36:06 --> Config Class Initialized
+DEBUG - 2010-11-19 14:36:06 --> Hooks Class Initialized
+DEBUG - 2010-11-19 14:36:06 --> URI Class Initialized
+DEBUG - 2010-11-19 14:36:06 --> No URI present. Default controller set.
+DEBUG - 2010-11-19 14:36:06 --> Router Class Initialized
+DEBUG - 2010-11-19 14:36:06 --> Output Class Initialized
+DEBUG - 2010-11-19 14:36:06 --> Input Class Initialized
+DEBUG - 2010-11-19 14:36:06 --> Global POST and COOKIE data sanitized
+DEBUG - 2010-11-19 14:36:06 --> Language Class Initialized
+DEBUG - 2010-11-19 14:36:06 --> Loader Class Initialized
+DEBUG - 2010-11-19 14:36:06 --> Helper loaded: url_helper
+DEBUG - 2010-11-19 14:36:06 --> Helper loaded: file_helper
+DEBUG - 2010-11-19 14:36:06 --> Helper loaded: language_helper
+DEBUG - 2010-11-19 14:36:06 --> Database Driver Class Initialized
+DEBUG - 2010-11-19 14:36:06 --> Session Class Initialized
+DEBUG - 2010-11-19 14:36:06 --> Helper loaded: string_helper
+DEBUG - 2010-11-19 14:36:06 --> Session routines successfully run
+DEBUG - 2010-11-19 14:36:06 --> Pagination Class Initialized
+DEBUG - 2010-11-19 14:36:06 --> Controller Class Initialized
+DEBUG - 2010-11-19 14:36:06 --> File loaded: /Users/mac/Sites/efg/system/application/views/index/wel.php
+DEBUG - 2010-11-19 14:36:06 --> File loaded: /Users/mac/Sites/efg/system/application/views/layout/sub_nav.php
+DEBUG - 2010-11-19 14:36:06 --> File loaded: /Users/mac/Sites/efg/system/application/views/layout/footer.php
+DEBUG - 2010-11-19 14:36:06 --> File loaded: /Users/mac/Sites/efg/system/application/views/layout/main.php
+DEBUG - 2010-11-19 14:36:06 --> Final output sent to browser
+DEBUG - 2010-11-19 14:36:06 --> Total execution time: 0.0330
+DEBUG - 2010-11-19 14:36:07 --> Config Class Initialized
+DEBUG - 2010-11-19 14:36:07 --> Hooks Class Initialized
+DEBUG - 2010-11-19 14:36:07 --> URI Class Initialized
+ERROR - 2010-11-19 14:36:07 --> 404 Page Not Found --> images
+DEBUG - 2010-11-19 14:36:07 --> Config Class Initialized
+DEBUG - 2010-11-19 14:36:07 --> Hooks Class Initialized
+DEBUG - 2010-11-19 14:36:07 --> URI Class Initialized
+ERROR - 2010-11-19 14:36:07 --> 404 Page Not Found --> images
+DEBUG - 2010-11-19 14:36:07 --> Config Class Initialized
+DEBUG - 2010-11-19 14:36:07 --> Hooks Class Initialized
+DEBUG - 2010-11-19 14:36:07 --> URI Class Initialized
+ERROR - 2010-11-19 14:36:07 --> 404 Page Not Found --> public
+DEBUG - 2010-11-19 14:38:16 --> Config Class Initialized
+DEBUG - 2010-11-19 14:38:16 --> Hooks Class Initialized
+DEBUG - 2010-11-19 14:38:16 --> URI Class Initialized
+DEBUG - 2010-11-19 14:38:16 --> No URI present. Default controller set.
+DEBUG - 2010-11-19 14:38:16 --> Router Class Initialized
+DEBUG - 2010-11-19 14:38:16 --> Output Class Initialized
+DEBUG - 2010-11-19 14:38:16 --> Input Class Initialized
+DEBUG - 2010-11-19 14:38:16 --> Global POST and COOKIE data sanitized
+DEBUG - 2010-11-19 14:38:16 --> Language Class Initialized
+DEBUG - 2010-11-19 14:38:16 --> Loader Class Initialized
+DEBUG - 2010-11-19 14:38:16 --> Helper loaded: url_helper
+DEBUG - 2010-11-19 14:38:16 --> Helper loaded: file_helper
+DEBUG - 2010-11-19 14:38:16 --> Helper loaded: language_helper
+DEBUG - 2010-11-19 14:38:16 --> Database Driver Class Initialized
+DEBUG - 2010-11-19 14:38:16 --> Session Class Initialized
+DEBUG - 2010-11-19 14:38:16 --> Helper loaded: string_helper
+DEBUG - 2010-11-19 14:38:16 --> Session routines successfully run
+DEBUG - 2010-11-19 14:38:16 --> Pagination Class Initialized
+DEBUG - 2010-11-19 14:38:16 --> Controller Class Initialized
+DEBUG - 2010-11-19 14:38:16 --> File loaded: /Users/mac/Sites/efg/system/application/views/index/wel.php
+DEBUG - 2010-11-19 14:38:16 --> File loaded: /Users/mac/Sites/efg/system/application/views/layout/head.php
+DEBUG - 2010-11-19 14:38:16 --> File loaded: /Users/mac/Sites/efg/system/application/views/layout/sub_nav.php
+DEBUG - 2010-11-19 14:38:16 --> File loaded: /Users/mac/Sites/efg/system/application/views/layout/footer.php
+DEBUG - 2010-11-19 14:38:16 --> File loaded: /Users/mac/Sites/efg/system/application/views/layout/main.php
+DEBUG - 2010-11-19 14:38:16 --> Final output sent to browser
+DEBUG - 2010-11-19 14:38:16 --> Total execution time: 0.0338
+DEBUG - 2010-11-19 14:38:16 --> Config Class Initialized
+DEBUG - 2010-11-19 14:38:16 --> Hooks Class Initialized
+DEBUG - 2010-11-19 14:38:16 --> URI Class Initialized
+ERROR - 2010-11-19 14:38:16 --> 404 Page Not Found --> images
+DEBUG - 2010-11-19 14:38:16 --> Config Class Initialized
+DEBUG - 2010-11-19 14:38:16 --> Hooks Class Initialized
+DEBUG - 2010-11-19 14:38:16 --> URI Class Initialized
+ERROR - 2010-11-19 14:38:16 --> 404 Page Not Found --> images
+DEBUG - 2010-11-19 14:38:16 --> Config Class Initialized
+DEBUG - 2010-11-19 14:38:16 --> Hooks Class Initialized
+DEBUG - 2010-11-19 14:38:16 --> URI Class Initialized
+ERROR - 2010-11-19 14:38:16 --> 404 Page Not Found --> public
