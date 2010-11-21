@@ -47,10 +47,10 @@ var lang_combo = new Ext.form.ComboBox({
 });
 lang_combo.on('select',function(){
 	wel_form.getForm().el.mask('資料處理中','x-mask-loading');
-	ds.baseParams.id = '';
+	ds.baseParams.ps = 'summary';
 	ds.baseParams.type = title_combo.getValue();
 	ds.baseParams.lang = lang_combo.getValue();
-	ds.reload();
+	ds.load();
 });
 var node_title = new Ext.form.TextField({
 	fieldLabel:'標題',

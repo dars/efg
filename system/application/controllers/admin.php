@@ -40,7 +40,7 @@ class Admin extends Controller {
 	function get_node_content(){
 		if($this->input->post('type')){
 			$this->db->where('type',$this->input->post('type'));
-			if($this->input->post('type') == 'summary'){
+			if($this->input->post('ps') == 'summary'){
 				$this->db->where('lang',$this->input->post('lang'));
 			}
 		}else{

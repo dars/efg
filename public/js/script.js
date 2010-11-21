@@ -50,8 +50,7 @@ function show_info_tab(category,str){
 	tp.get(0).setTitle('文字簡介 - '+str);
 	tp.activate(0);
 	wel_form.getForm().el.mask('資料讀取中','x-mask-loading');
-	ds.baseParams.id = category;
-	ds.load();
+	ds.load({params:{id:category,ps:'',type:'',lang:''}});
 	node_title.show();
 	lang_combo.show();
 	title_combo.setReadOnly(true);
