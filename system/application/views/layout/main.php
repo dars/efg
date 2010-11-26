@@ -6,6 +6,7 @@
 <meta http-equiv="Content-Style-Type" content="text/css" />
 <link href="<?=site_url('public/css/style.css')?>" rel="stylesheet" type="text/css" />
 <link href="<?=site_url('public/css/layout.css')?>" rel="stylesheet" type="text/css" />
+<link href="<?=site_url('public/css/slickmap.css')?>" rel="stylesheet" type="text/css" />
 <link rel="stylesheet" href="<?=site_url('public/css/menu.css');?>" type="text/css" />
 <link rel="stylesheet" href="<?=site_url('public/css/scrollimage.css');?>" type="text/css" />
 <!--[if lt IE 7]>

@@ -10,19 +10,25 @@ var login_form = new Ext.form.FormPanel({
 	},
 	items:[{
 		fieldLabel:'登入帳號',
-		name:'username'
+		name:'username',
+		id:'username'
 	},{
 		inputType:'password',
 		fieldLabel:'登入密碼',
-		name:'password'
+		name:'password',
+		id:'password'
 	}],
 	buttons:[{
 		text:'登入',
 		handler:function(){
-			//if(login_form.getForm().isValid()){
-				login_win.close();
-				show_Growl(1,'訊息','您已登入成功');
-			//}
+			if(login_form.getForm().isValid()){
+				if(login_form.get('username').getValue() == 'admin' && login_form.get('password').getValue() == 'admin'){
+					login_win.close();
+					show_Growl(1,'訊息','您已登入成功');
+				}else{
+					show_Growl(2,'警告','登入失敗');
+				}
+			}
 		}
 	}]
 });

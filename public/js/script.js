@@ -46,14 +46,17 @@ function show_Growl(type,title,string){
 		});
 	}
 }
-function show_info_tab(category,str){
+function show_info_tab(category,str,id){
 	tp.get(0).setTitle('文字簡介 - '+str);
 	tp.activate(0);
 	wel_form.getForm().el.mask('資料讀取中','x-mask-loading');
-	ds.load({params:{id:category,ps:'',type:'',lang:''}});
-	node_title.show();
-	lang_combo.show();
-	title_combo.setReadOnly(true);
+	titles_store.load({params:{category:category}});
+	titles_store.on('load',function(){
+		ds.load({params:{id:id,ps:'',type:'',lang:''}});
+		node_title.show();
+		lang_combo.show();
+		title_combo.setReadOnly(true);
+	});
 }
 function show_info2_tab(category,str){
 	tp.get(0).setTitle(str);
@@ -84,7 +87,6 @@ function show_taxo_tab(category,str,lang){
 		tabItem = tp.add({
 			id:'taxonomy',
 			title:'分類設定 - '+str,
-			closable:true,
 			items:[taxo_tree],
 			autoScroll:true
 		});
@@ -101,7 +103,6 @@ function show_project_tab(str){
 		tabItem = tp.add({
 			id:'project',
 			title:str,
-			closable:true,
 			items:[project_panel],
 			autoScroll:true
 		});
@@ -119,7 +120,6 @@ function show_news_tab(category){
 		tabItem = tp.add({
 			id:'news',
 			title:'最新消息',
-			closable:true,
 			items:[news_grid],
 			autoScroll:true
 		});

@@ -8,7 +8,6 @@ var titles_store = new Ext.data.Store({
 			{name:'id'}
 		])
 });
-titles_store.load({params:{category:'summary'}});
 
 var title_combo = new Ext.form.ComboBox({
 	fieldLabel:'類別',
@@ -114,6 +113,10 @@ var wel_form = new Ext.form.FormPanel({
 		}
 	}]
 });
+var ini=0;
 wel_form.on('activate',function(){
-	ds.load({params:{id:1}});	
+	if(ini == 0){
+		show_info_tab('summary','首頁歡迎',1);
+		ini=1;
+	}
 });

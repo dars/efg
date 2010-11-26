@@ -2,16 +2,17 @@
 class Projects extends Controller{
 	function __construct(){parent::Controller();}
 	function index(){
-		$this->db->where('type',$this->uri->segment(2));
+		$this->db->where('type',$this->uri->segment(3));
 		$query = $this->db->get('nodes');
+		//echo $this->db->last_query();
 		$res = $query->result_array();
 		$data = $res[0];
 		
-		$this->db->where('project_id',$this->uri->segment(2));
+		$this->db->where('project_id',$this->uri->segment(3));
 		$query = $this->db->get('cases');
 		$data['cases'] = $query->result_array();
 		
-		$this->db->where('hash_id',$this->uri->segment(2));
+		$this->db->where('hash_id',$this->uri->segment(3));
 		$query = $this->db->get('files');
 		$data['pixs'] = $query->result_array();
 		

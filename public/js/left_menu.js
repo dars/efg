@@ -118,28 +118,28 @@ tree.on('click',function(node){
 	var id = node.id;
 	switch(id){
 		case 'welcome':
-			show_info_tab(1,'首頁歡迎');
+			show_info_tab('summary','首頁歡迎',1);
 			break;
 		case 'design':
-			show_info_tab(2,'設計規劃');
+			show_info_tab('summary','設計規劃',2);
 			break;
 		case 'material':
-			show_info_tab(3,'備料加工');
+			show_info_tab('summary','備料加工',3);
 			break;
 		case 'installation':
-			show_info_tab(4,'責任施工');
+			show_info_tab('summary','責任施工',4);
 			break;
 		case 'consultation':
-			show_info_tab(5,'顧問監造');
+			show_info_tab('summary','顧問監造',5);
 			break;
 		case 'service':
-			show_info_tab(6,'承攬項目');
+			show_info_tab('summary','承攬項目',6);
 			break;
 		case 'knowledge':
-			show_info_tab(7,'資訊百科');
+			show_info_tab('summary','資訊百科',7);
 			break;
 		case 'dorma':
-			show_info_tab(25,'德國多瑪');
+			show_info_tab('summary','德國多瑪',25);
 			break;
 		case 'news_taxo_zhtw':
 			show_taxo_tab('news','最新消息','zhtw');

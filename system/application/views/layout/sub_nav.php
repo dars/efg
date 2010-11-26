@@ -9,21 +9,25 @@ if($this->uri->segment(3)){
 	$this->db->where('a.id',$this->uri->segment(3));
 	$query = $this->db->get('nodes as a');
 	$res = $query->result_array();
-	$res = $res[0];
-	$cate = $res['category'];
-	switch($cate){
-		case 'summary':
-			$ii=0;
-			if($this->uri->segment(3) == 7 || $this->uri->segment(3) == 14){
-				$ii=3;
-			}
-			break;
-		case 'sys':
-			$ii=1;
-			break;
-		case 'product':
-			$ii=2;
-			break;
+	if(count($res)>0){
+		$res = $res[0];
+		$cate = $res['category'];
+		switch($cate){
+			case 'summary':
+				$ii=0;
+				if($this->uri->segment(3) == 7 || $this->uri->segment(3) == 14){
+					$ii=3;
+				}
+				break;
+			case 'sys':
+				$ii=1;
+				break;
+			case 'product':
+				$ii=2;
+				break;
+		}
+	}else{
+		$ii=3;
 	}
 }
 

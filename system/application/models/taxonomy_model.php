@@ -3,9 +3,12 @@ class taxonomy_model extends Model{
 	function __construct(){
 		parent::Model();
 	}
-	function get_names($category){
+	function get_names($category,$lang=''){
 		$this->db->select('id,name');
 		$this->db->where('category',$category);
+		if(!empty($lang)){
+			$this->db->where('lang',$lang);
+		}
 		$this->db->order_by('id','ASC');
 		$res = $this->db->get('taxonomies');
 		return $res->result_array();
