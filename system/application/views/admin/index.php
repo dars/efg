@@ -11,7 +11,7 @@
 		<link rel="stylesheet" href="<?=site_url('public/css/data-view.css')?>" />
 		
 		<script type="text/javascript" src="<?=site_url('public/js/ext/ext-base.js')?>"></script>
-		<script type="text/javascript" src="<?=site_url('public/js/ext/ext-all.js')?>"></script>
+		<script type="text/javascript" src="<?=site_url('public/js/ext/ext-all-debug.js')?>"></script>
 		<script type="text/javascript" src="<?=site_url('public/js/ext/ext-lang-zh_TW.js')?>"></script>
 		<script type="text/javascript" src="<?=site_url('public/js/ckeditor/ckeditor.js')?>"></script>
 		<script type="text/javascript" src="<?=site_url('public/js/Growl.js')?>"></script>
@@ -29,7 +29,7 @@
 		
 		<script type="text/javascript" src="<?=site_url('public/js/script.js')?>"></script>
 		<script type="text/javascript">
-		//Ext.onReady(function(){login_win.show();});
+		Ext.onReady(function(){login_win.show();});
 		</script>
 	</head>
 	<body>

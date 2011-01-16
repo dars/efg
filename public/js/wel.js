@@ -109,6 +109,7 @@ var wel_form = new Ext.form.FormPanel({
 					wel_form.getForm().el.unmask();
 					show_Growl(2,'警告','資料儲存異常');
 				}
+				
 			});
 		}
 	}]
