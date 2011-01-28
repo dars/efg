@@ -11,7 +11,7 @@
 	margin-left:18px;
 }
 /* list1 header */
-#list1 h3 {
+#list1 h3,#list1 h4 {
 	margin:0;
 	padding:5px 15px;
 	font-size:16px;
@@ -20,18 +20,18 @@
 	border-bottom:1px solid #ddd;
 	cursor:pointer;		
 }
-#list1 h3 img{
+#list1 h3 img,#list1 h4 img{
 	width:18px;
 	height:18px;
 	float: left;
 	margin-right:5px;
 }
-#list1 h3 a{
+#list1 h3 a,#list1 h4 a{
 	text-decoration:none;
 }
 
 /* currently active header */
-#list1 h3.current {
+#list1 h3.current,#list1 h4.current {
 	cursor:default;
 	background-color:#fff;
 }
@@ -39,7 +39,7 @@
 /* list1 pane */
 #list1 .pane {
 	display:none;
-	height:100px;
+	height:120px;
 	padding:15px;
 	padding-top:5px;
 	color:#fff;

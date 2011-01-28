@@ -80,6 +80,7 @@ $(function(){
 			endforeach;
 			echo '</ul></div>';
 		?>
-		<h3><img src="<?=site_url('public/images/list_arrow.png')?>"><a href="#" id="nav_know"><span class="nav_list"><?=$this->lang->line('sub_nav_know');?></span></a></h3>
+		<h4><img src="<?=site_url('public/images/list_arrow.png')?>"><a href="<?=site_url($site_lang.'/nodes/'.$this->lang->line('sub_nav_know_val'))?>" id="nav_know"><span class="nav_list"><?=$this->lang->line('sub_nav_know');?></span></a></h4>
+		<h4><img src="<?=site_url('public/images/list_arrow.png')?>"><a href="<?=site_url($site_lang.'/nodes/'.$this->lang->line('sub_nav_contact_val'))?>" id="nav_contact"><span class="nav_list"><?=$this->lang->line('sub_nav_contact');?></span></a></h4>
 	</div>
 </div>

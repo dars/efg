@@ -1,7 +1,7 @@
 var project_store = new Ext.data.Store({
 	proxy: new Ext.data.HttpProxy({
 		method:'post',
-		url:'get_nodes_title'
+		url:base_url+'admin/get_nodes_title'
 	}),
 	reader: new Ext.data.JsonReader({root:'root'},[
 			{name:'name'},
@@ -81,7 +81,7 @@ var pix_form = new Ext.form.FormPanel({
 		handler:function(){
 			pix_form.get('ptype').setValue(project_combo.getValue());
 			pix_form.getForm().submit({
-				url:'upload_project_pix',
+				url:base_url+'admin/upload_project_pix',
 				waitMsg:'圖檔上傳中',
 				success:function(){
 					show_Growl(1,'訊息','上傳成功');
@@ -103,7 +103,7 @@ var pix_form = new Ext.form.FormPanel({
 var pix_store = new Ext.data.JsonStore({
 	proxy: new Ext.data.HttpProxy({
 		method:'post',
-		url:'get_project_pix'
+		url:base_url+'admin/get_project_pix'
 	}),
 	root:'root',
 	fields:['id','name','hash_id']
@@ -113,7 +113,7 @@ var pix_store = new Ext.data.JsonStore({
 var tpl = new Ext.XTemplate(
 	'<tpl for=".">',
 		'<div class="thumb-wrap" id="{name}">',
-		'<div class="thumb"><img src="../public/files/{name}" title="{name}"></div>',
+		'<div class="thumb"><img src="'+base_url+'public/files/{name}" title="{name}"></div>',
 		'<span class="x-editable">{name}</span></div>',
 	'</tpl>',
 	'<div class="x-clear"></div>');
@@ -153,7 +153,7 @@ var pix_panel = new Ext.Panel({
 var case_store = new Ext.data.JsonStore({
 	proxy: new Ext.data.HttpProxy({
 		method:'post',
-		url:'get_cases_list'
+		url:base_url+'admin/get_cases_list'
 	}),
 	root:'root',
 	fields:[
@@ -220,7 +220,7 @@ var case_list = new Ext.grid.EditorGridPanel({
 			});
 			Ext.Ajax.request({
 				method:'post',
-				url:'save_case',
+				url:base_url+'admin/save_case',
 				success:function(){
 					show_Growl(1,'訊息','儲存成功');
 					case_store.reload();
@@ -238,7 +238,7 @@ var content_rec = new Ext.data.Record.create([{name:'content'}]);
 var content_store = new Ext.data.JsonStore({
 	proxy:new Ext.data.HttpProxy({
 		method:'post',
-		url:'get_project_content'
+		url:base_url+'admin/get_project_content'
 	}),
 	root:'root',
 	fields:content_rec
@@ -262,7 +262,7 @@ var content_form = new Ext.form.FormPanel({
 		xtype:'ckeditor',
 		name:'content',
 		CKConfig:{
-			customerConfig:'http://192.168.1.131/~Dars/efg/public/js/ckeditor/config.js',
+			customerConfig:base_url+'public/js/ckeditor/config.js',
 			width:'97%'
 		}
 	}],
@@ -272,7 +272,7 @@ var content_form = new Ext.form.FormPanel({
 			content_form.getForm().el.mask('資料儲存中','x-mask-loading');
 			content_form.get('type').setValue(project_combo.getValue());
 			content_form.getForm().submit({
-				url:'save_project_content',
+				url:base_url+'admin/save_project_content',
 				success:function(){
 					show_Growl(1,'訊息','資料已儲存');
 					content_form.getForm().el.unmask();
