@@ -18,7 +18,6 @@ class Admin extends Controller {
 		$config['remove_spaces']=true;
 		$this->load->library('upload',$config);
 		$upload = $this->upload->do_upload('upload');
-		//var_dump($upload);
 		
 		$data=$this->upload->data();
 		echo '<script type="text/javascript">';
@@ -26,9 +25,8 @@ class Admin extends Controller {
 		echo 'CKEDITOR_CurrentDialog.selectPage(\'info\');';
 		echo 'CKEDITOR_CurrentDialog.getContentElement(\'info\', \'txtUrl\').focus();';
 		echo 'CKEDITOR_CurrentDialog.setValueOf(\'info\', \'txtUrl\', \''.site_url('public/files/ckfiles/'.$data['file_name']).'\');';
-		//echo "window.parent.CKEDITOR.tools.callFunction(1,'".site_url('public/files/ckfiles/'.$data['file_name'])."', '上傳成功');";
-		//echo "window.parent.CKEDITOR.tools.callFunction(1,'http://localhost/~Dars/efg/public/files/ckfiles/177ba48b9222da86db2dec2e4a1d9361.jpg', '上傳成功');";
 		echo '</script>';
+		
 	}
 	function get_nodes_title(){
 		$this->load->model('taxonomy_model');
@@ -58,7 +56,7 @@ class Admin extends Controller {
 		$tmp['content']=$this->input->post('content');
 		$tmp['modified']=date('Y-m-d H:i:s');
 		$this->db->update('nodes',$tmp);
-		echo '{success:true}';
+		echo '{"success":true}';
 	}
 	
 	function get_taxonomy_list(){
@@ -86,7 +84,7 @@ class Admin extends Controller {
 	function add_taxo(){
 		$this->load->model('taxonomy_model');
 		$this->taxonomy_model->add_taxonomy($this->input->post('name'),$this->input->post('category'),$this->input->post('lang'));
-		echo '{success:true}';
+		echo '{"success":true}';
 	}
 	function edit_taxo(){
 		$tmp=array();
@@ -100,12 +98,12 @@ class Admin extends Controller {
 			$this->db->where('type',$this->input->post('id'));
 			$this->db->update('nodes',$tmp);
 		}
-		echo '{success:true}';
+		echo '{"success":true}';
 	}
 	function delete_taxo(){
 		$this->load->model('taxonomy_model');
 		$this->taxonomy_model->del_taxonomy($this->input->post('id'));
-		echo '{success:true}';
+		echo '{"success":true}';
 	}
 	function sort_taxo(){
 		$sort=json_decode($this->input->post('sort'));
@@ -116,7 +114,7 @@ class Admin extends Controller {
 			$this->db->update('taxonomies',$tmp);
 			$i++;
 		}
-		echo '{success:true}';
+		echo '{"success":true}';
 	}
 	function upload_project_pix(){
 		$config['upload_path']='public/files/';
@@ -147,7 +145,7 @@ class Admin extends Controller {
 				$i++;
 			}
 		}
-		echo '{success:true}';
+		echo '{"success":true}';
 	}
 	function get_project_pix(){
 		$this->db->where('hash_id',$this->input->post('hash_id'));
@@ -157,6 +155,13 @@ class Admin extends Controller {
 		$res=new stdClass();
 		$res->root = $query->result_array();
 		echo json_encode($res);
+	}
+	function images_destory(){
+		foreach($this->input->post('foo') as $id):
+			$this->db->where('id',$id);
+			$this->db->delete('files');
+		endforeach;
+		echo '{"success":true}';
 	}
 	function get_cases_list(){
 		$this->db->where('project_id',$this->input->post('project_id'));
@@ -180,7 +185,7 @@ class Admin extends Controller {
 			$this->db->insert('cases',$tmp);
 			$i++;
 		}
-		echo '{success:true}';
+		echo '{"success":true}';
 	}
 	function get_project_content(){
 		$this->db->where('type',$this->input->post('type'));
@@ -194,7 +199,7 @@ class Admin extends Controller {
 		$this->db->where('type',$this->input->post('type'));
 		$tmp['content']=$this->input->post('content');
 		$this->db->update('nodes',$tmp);
-		echo '{success:true}';
+		echo '{"success":true}';
 	}
 	function get_news_taxo(){
 		$this->db->where('category','news');
@@ -223,7 +228,12 @@ class Admin extends Controller {
 		$tmp['created'] = date('Y-m-d H:i:s');
 		$tmp['modified'] = date('Y-m-d H:i:s');
 		$this->db->insert('boards',$tmp);
-		echo '{success:true}';
+		echo '{"success":true}';
+	}
+	function news_del(){
+		$this->db->where('id',$this->input->post('id'));
+		$this->db->delete('boards');
+		echo '{"success":true}';
 	}
 }
 

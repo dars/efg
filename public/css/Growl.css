@@ -14,8 +14,9 @@
     
     font-family: lucida grande,tahoma,arial,veranda,sans-serif;
     background:#1F1F1F;
+    background-color: #333;
+    opacity: 0.5;
     filter:alpha(opacity=50);
-    background-color: rgba(31, 31, 31, 0.5);
     text-shadow: #2f2f2f 0 2px 2px;
     color: #fff;
 }

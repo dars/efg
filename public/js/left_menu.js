@@ -146,7 +146,7 @@ tree.on('click',function(node){
 			show_info_tab('summary','德國多瑪',25);
 			break;
 		case 'contact':
-			show_info_tab('summary','聯絡我們',27);
+			show_info_tab('summary','聯絡我們',36);
 			break;
 		case 'news_taxo_zhtw':
 			show_taxo_tab('news','最新消息','zhtw');

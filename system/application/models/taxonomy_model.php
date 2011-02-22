@@ -9,7 +9,7 @@ class taxonomy_model extends Model{
 		if(!empty($lang)){
 			$this->db->where('lang',$lang);
 		}
-		$this->db->order_by('id','ASC');
+		$this->db->order_by('weight','DESC');
 		$res = $this->db->get('taxonomies');
 		return $res->result_array();
 	}

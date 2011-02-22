@@ -108,22 +108,58 @@ var pix_store = new Ext.data.JsonStore({
 	root:'root',
 	fields:['id','name','hash_id']
 });
-//pix_store.load();
 
 var tpl = new Ext.XTemplate(
 	'<tpl for=".">',
-		'<div class="thumb-wrap" id="{name}">',
+		'<div class="thumb-wrap" id="{id}">',
 		'<div class="thumb"><img src="'+base_url+'public/files/{name}" title="{name}"></div>',
-		'<span class="x-editable">{name}</span></div>',
+		'<span class="x-editable">{shortname}</span></div>',
 	'</tpl>',
 	'<div class="x-clear"></div>');
-
+	
+var pix_dv = new Ext.DataView({
+	store:pix_store,
+	tpl:tpl,
+	autoHeight:true,
+	multiSelect:true,
+	overClass:'x-view-over',
+	itemSelector:'div.thumb-wrap',
+	emptyText: '無圖片',
+	plugins: [
+		new Ext.DataView.DragSelector()
+	],
+	prepareData:function(data){
+		data.shortname = Ext.util.Format.ellipsis(data.name, 15);
+		return data;
+	}
+});
 var tbar = new Ext.Toolbar({
 	style:{border:'1px solid #99BBE8'}
 });
 tbar.add('->',{
 	text:'刪除',
-	icon:'img/delete.png'
+	icon:'img/delete.png',
+	handler:function(){
+		var r = pix_dv.getSelectedRecords();
+		if(r.length != 0){
+			par='';
+			for(i=0;i<r.length;i++){
+			    if(i>0){
+			    	par+='&';
+			    }
+			    par+='foo[]='+r[i].data.id;
+			}
+			Ext.Ajax.request({
+				url:base_url+'admin/images_destory',
+				params:par,
+				success:function(){
+				    show_Growl(1,'訊息','圖片已刪除');
+				    pix_store.reload();
+				    pix_form.getForm().reset();
+				}
+			});
+		}
+	}	
 });
 var pix_panel = new Ext.Panel({
 	id:'images-view',
@@ -133,22 +169,7 @@ var pix_panel = new Ext.Panel({
 	title:'圖片瀏覽',
 	tbar:tbar,
 	autoScroll:true,
-	items:new Ext.DataView({
-		store:pix_store,
-		tpl:tpl,
-		autoHeight:true,
-		multiSelect:true,
-		overClass:'x-view-over',
-		itemSelector:'div.thumb-wrap',
-		emptyText: 'No images to display',
-		plugins: [
-			new Ext.DataView.DragSelector(),
-			new Ext.DataView.LabelEditor({dataIndex: 'name'})
-		],
-		prepareData:function(data){
-			return data;
-		}
-	})
+	items:pix_dv
 });
 var case_store = new Ext.data.JsonStore({
 	proxy: new Ext.data.HttpProxy({

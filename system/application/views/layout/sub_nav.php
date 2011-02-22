@@ -44,7 +44,7 @@ $(function(){
 <div class="indent">
 	<div id="list1">
 		<h3><img src="<?=site_url('public/images/list_arrow.png')?>"><span class="nav_list"><?=$this->lang->line('sub_nav_work');?></span></h3>
-		<div class="pane">
+		<div class="pane" style="height:100px">
 			<ul>
 				<li><a href="<?=site_url($site_lang.'/nodes/'.$this->lang->line('sub_nav_design_val'))?>" class="sub_nav_l2"><span class="nav_list"><?=$this->lang->line('sub_nav_design')?></span></a></li>
 				<li><a href="<?=site_url($site_lang.'/nodes/'.$this->lang->line('sub_nav_material_val'))?>" class="sub_nav_l2"><span class="nav_list"><?=$this->lang->line('sub_nav_material')?></span></a></li>
@@ -58,9 +58,11 @@ $(function(){
 			$this->db->join('nodes as b','b.type=a.id','left');
 			$this->db->where('a.category','sys');
 			$this->db->where('a.lang',$site_lang);
+			$this->db->order_by('a.weight','ASC');
 			$query = $this->db->get('taxonomies as a');
 			$res = $query->result_array();
-			echo '<div class="pane"><ul>';
+			$h = (count($res)+1)*20;
+			echo '<div class="pane" style="height:'.$h.'px"><ul>';
 			foreach($res as $r):
 				echo '<li><a href="'.site_url($site_lang.'/nodes/'.$r['id']).'" class="sub_nav_l2"><span class="nav_list">'.$r['name'].'</span></a></li>';
 			endforeach;
@@ -72,9 +74,11 @@ $(function(){
 			$this->db->join('nodes as b','b.type=a.id','left');
 			$this->db->where('a.category','product');
 			$this->db->where('a.lang',$site_lang);
+			$this->db->order_by('a.weight','ASC');
 			$query = $this->db->get('taxonomies as a');
 			$res = $query->result_array();
-			echo '<div class="pane"><ul>';
+			$h = (count($res)+1)*20;
+			echo '<div class="pane" style="height:'.$h.'px"><ul>';
 			foreach($res as $r):
 				echo '<li><a href="'.site_url($site_lang.'/nodes/'.$r['id']).'" class="sub_nav_l2"><span class="nav_list">'.$r['name'].'</span></a></li>';
 			endforeach;
