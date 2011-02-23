@@ -10,8 +10,8 @@ class Admin extends Controller {
 	}
 	function ckupdate(){
 		$config['upload_path']='public/files/ckfiles/';
-		$config['allowed_types']='gif|jpg|jpeg|png|bmp';
-		$config['max_size']='1000';
+		$config['allowed_types']='rtf|zip|rar|ppt|docx|doc|xls|pdf|gif|jpg|jpeg|png|bmp';
+		$config['max_size']='2000';
 		$config['max_width']='0';
 		$config['max_height']='0';
 		$config['encrypt_name']=true;
@@ -20,11 +20,18 @@ class Admin extends Controller {
 		$upload = $this->upload->do_upload('upload');
 		
 		$data=$this->upload->data();
+		header('Content-type:text/html;charset=utf8');
 		echo '<script type="text/javascript">';
+		$num = $this->input->get('CKEditorFuncNum');
+		$url = site_url('public/files/ckfiles/'.$data['file_name']);
+		$msg = "File Upload Success";
+		echo "window.parent.CKEDITOR.tools.callFunction($num,'$url','$msg');";
+		/*
 		echo 'var CKEDITOR_CurrentDialog = (window.parent.CKEDITOR.dialog.getCurrent());';
 		echo 'CKEDITOR_CurrentDialog.selectPage(\'info\');';
 		echo 'CKEDITOR_CurrentDialog.getContentElement(\'info\', \'txtUrl\').focus();';
 		echo 'CKEDITOR_CurrentDialog.setValueOf(\'info\', \'txtUrl\', \''.site_url('public/files/ckfiles/'.$data['file_name']).'\');';
+		*/
 		echo '</script>';
 		
 	}
