@@ -94,7 +94,7 @@ function show_taxo_tab(category,str,lang){
 	tp.body.mask('資料讀取中','x-mask-loading');
 	var tabItem = tp.getItem('taxonomy');
 	taxo_root.id = category+'_'+lang;
-	if(tabItem !== null){
+	if(typeof tabItem === 'undefined'){
 		tabItem = tp.add({
 			id:'taxonomy',
 			title:'分類設定 - '+str,
@@ -110,7 +110,7 @@ function show_taxo_tab(category,str,lang){
 function show_project_tab(str){
 	var tabItem = tp.getItem('project');
 	taxo_root.id = 'project';
-	if(tabItem !== null){
+	if(typeof tabItem === 'undefined'){
 		tabItem = tp.add({
 			id:'project',
 			title:str,
@@ -127,7 +127,7 @@ function show_project_tab(str){
 function show_news_tab(category){
 	tp.body.mask('資料讀取中','x-mask-loading');
 	var tabItem = tp.getItem('news');
-	if(tabItem !== null){
+	if(typeof tabItem === 'undefined'){
 		tabItem = tp.add({
 			id:'news',
 			title:'最新消息',
